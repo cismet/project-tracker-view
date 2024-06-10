@@ -267,7 +267,7 @@ export default function Component() {
                   {project.progress}%
                 </span>{" "}
               </Progress> */}
-              <Progress value={50} className="w-full" />
+              {/* <Progress value={50} className="w-full" /> */}
               <div className="text-gray-500 dark:text-gray-400">
                 {project.description}
               </div>
