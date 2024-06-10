@@ -80,7 +80,6 @@ export default function Component() {
   };
   return (
     <div className="max-w-6xl mx-auto py-8 px-4 sm:px-6 lg:px-8">
-      <h1 className="text-green-600">Hi Hi</h1>
       <div className="flex items-center justify-between mb-6">
         <div className="flex items-center gap-4">
           <div className="flex flex-wrap gap-2">
