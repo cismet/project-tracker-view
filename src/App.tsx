@@ -12,7 +12,6 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Progress } from "@/components/ui/progress";
 import { Heading1Icon } from "lucide-react";
-import { cn } from "./lib/utils";
 
 export default function Component() {
   const [filters, setFilters] = useState([]);
@@ -97,41 +96,39 @@ export default function Component() {
               <Badge
                 key={tag}
                 variant={filters.includes(tag) ? "filled" : "outline"}
-                className={cn(
-                  `border-${
-                    tag === "Support"
-                      ? "green-600"
-                      : tag === "DZ"
-                      ? "blue-600"
-                      : tag === "Wunda"
-                      ? "orange-600"
-                      : tag === "Marketing"
-                      ? "pink-600"
-                      : tag === "Design"
-                      ? "purple-600"
-                      : tag === "Engineering"
-                      ? "indigo-600"
-                      : "gray-600"
-                  } bg-${
-                    filters.includes(tag)
-                      ? `${
-                          tag === "Support"
-                            ? "green-600"
-                            : tag === "DZ"
-                            ? "blue-600"
-                            : tag === "Wunda"
-                            ? "orange-600"
-                            : tag === "Marketing"
-                            ? "pink-600"
-                            : tag === "Design"
-                            ? "purple-600"
-                            : tag === "Engineering"
-                            ? "indigo-600"
-                            : "gray-600"
-                        } text-white`
-                      : "white dark:bg-gray-950 text-gray-500 dark:text-gray-400"
-                  }`
-                )}
+                className={`${
+                  tag === "Support"
+                    ? "border-green-600"
+                    : tag === "DZ"
+                    ? "border-blue-600"
+                    : tag === "Wunda"
+                    ? "border-orange-600"
+                    : tag === "Marketing"
+                    ? "border-pink-600"
+                    : tag === "Design"
+                    ? "border-purple-600"
+                    : tag === "Engineering"
+                    ? "border-indigo-600"
+                    : "gray-600"
+                } ${
+                  filters.includes(tag)
+                    ? `${
+                        tag === "Support"
+                          ? "bg-green-600"
+                          : tag === "DZ"
+                          ? "bg-blue-600"
+                          : tag === "Wunda"
+                          ? "bg-orange-600"
+                          : tag === "Marketing"
+                          ? "bg-pink-600"
+                          : tag === "Design"
+                          ? "bg-purple-600"
+                          : tag === "Engineering"
+                          ? "bg-indigo-600"
+                          : "bg-gray-600"
+                      } text-white`
+                    : "white dark:bg-gray-950 text-gray-500 dark:text-gray-400"
+                }`}
                 onClick={() => toggleFilter(tag)}
               >
                 {tag}
@@ -170,41 +167,39 @@ export default function Component() {
                   <Badge
                     key={tag}
                     variant={filters.includes(tag) ? "filled" : "outline"}
-                    className={cn(
-                      `border-${
-                        tag === "Support"
-                          ? "green-600"
-                          : tag === "DZ"
-                          ? "blue-600"
-                          : tag === "Wunda"
-                          ? "orange-600"
-                          : tag === "Marketing"
-                          ? "pink-600"
-                          : tag === "Design"
-                          ? "purple-600"
-                          : tag === "Engineering"
-                          ? "indigo-600"
-                          : "gray-600"
-                      } bg-${
-                        filters.includes(tag)
-                          ? `${
-                              tag === "Support"
-                                ? "green-600"
-                                : tag === "DZ"
-                                ? "blue-600"
-                                : tag === "Wunda"
-                                ? "orange-600"
-                                : tag === "Marketing"
-                                ? "pink-600"
-                                : tag === "Design"
-                                ? "purple-600"
-                                : tag === "Engineering"
-                                ? "indigo-600"
-                                : "gray-600"
-                            } text-white`
-                          : "white dark:bg-gray-950 text-gray-500 dark:text-gray-400"
-                      }`
-                    )}
+                    className={`${
+                      tag === "Support"
+                        ? "border-green-600"
+                        : tag === "DZ"
+                        ? "border-blue-600"
+                        : tag === "Wunda"
+                        ? "border-orange-600"
+                        : tag === "Marketing"
+                        ? "border-pink-600"
+                        : tag === "Design"
+                        ? "border-purple-600"
+                        : tag === "Engineering"
+                        ? "border-indigo-600"
+                        : "border-gray-600"
+                    } ${
+                      filters.includes(tag)
+                        ? `${
+                            tag === "Support"
+                              ? "bg-green-600"
+                              : tag === "DZ"
+                              ? "bg-blue-600"
+                              : tag === "Wunda"
+                              ? "bg-orange-600"
+                              : tag === "Marketing"
+                              ? "bg-pink-600"
+                              : tag === "Design"
+                              ? "bg-purple-600"
+                              : tag === "Engineering"
+                              ? "bg-indigo-600"
+                              : "bg-gray-600"
+                          } text-white`
+                        : "white dark:bg-gray-950 text-gray-500 dark:text-gray-400"
+                    }`}
                   >
                     {tag}
                   </Badge>
