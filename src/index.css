@@ -14,3 +14,7 @@ h5,
 h6 {
   font-family: var(--font-inter), sans-serif;
 }
+
+:root {
+  --radius: 0.875rem;
+}
