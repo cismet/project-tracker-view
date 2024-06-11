@@ -5,13 +5,18 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Progress } from "@/components/ui/progress";
 
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
+import { faTableCells } from "@fortawesome/free-solid-svg-icons";
+import { createMarkdownTableFromProjectData } from "./lib/utils";
+
 export default function Component() {
   const [filters, setFilters] = useState([]);
   const [login, setLogin] = useState("");
   const [password, setPassword] = useState("");
   const [isLoggedIn, setIsLoggedIn] = useState(false);
   const [projects, setProjects] = useState([]);
-  const projectsRef = useRef();
+  const projectsRef = useRef([]);
   const [projectsConfig, setProjectsConfig] = useState([]);
 
   useEffect(() => {
@@ -106,6 +111,7 @@ export default function Component() {
       }
 
       const data = await response.json();
+      // console.log(project.id, JSON.stringify(data, null, 2));
 
       const balance = data.reduce((sum, entry) => sum + entry.workinghours, 0);
       const projectHours = project.budget * 8;
@@ -115,6 +121,8 @@ export default function Component() {
       project.balance = balance;
       project.progress = progress;
       project.visible = true;
+      project.details = createMarkdownTableFromProjectData(data);
+      // console.log(project.id, project.details);
     } catch (error) {
       // console.error(`Error fetching data for project ${project.id}:`, error);
     } finally {
@@ -158,7 +166,7 @@ export default function Component() {
       border: "border-purple-600",
       bg: "bg-purple-600",
     },
-    TopicsMaps: {
+    TopicMaps: {
       border: "border-indigo-600",
       bg: "bg-indigo-600",
     },
@@ -181,7 +189,15 @@ export default function Component() {
     },
   };
 
-  const tags = Object.keys(colorConfig).filter((tag) => tag !== "default");
+  const tags = Object.keys(colorConfig).filter((tag) => {
+    if (tag === "default") {
+      return false;
+    } else {
+      return projectsRef.current.some(
+        (project) => project.visible && project.tags.includes(tag)
+      );
+    }
+  });
 
   return (
     <div
@@ -260,47 +276,79 @@ export default function Component() {
                 key={project.id}
                 className={project.isLoading ? "loading" : ""}
               >
-                <CardContent className="flex flex-col items-center justify-center gap-4 p-6">
-                  <div className="text-4xl font-bold">{project.budget}</div>
-                  <div className="text-lg font-medium">{project.title}</div>
-                  <div className="relative w-full">
-                    <Progress
-                      value={project.progress > 100 ? 100 : project.progress}
-                      className="w-full"
-                    />
+                <div className="relative">
+                  {project.github && (
+                    <a
+                      href={project.github}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <button className="absolute top-2 right-2">
+                        <FontAwesomeIcon icon={faGithub} />
+                      </button>
+                    </a>
+                  )}
+                  {project.hideDetails !== true && (
+                    <button
+                      onClick={() => {
+                        navigator.clipboard
+                          .writeText(project.details)
+                          .then(() => {
+                            console.log("Text copied to clipboard");
+                          })
+                          .catch((err) => {
+                            console.error("Failed to copy text: ", err);
+                          });
+                      }}
+                      className="absolute top-2 left-2"
+                    >
+                      <FontAwesomeIcon icon={faTableCells} />
+                    </button>
+                  )}
+                  <CardContent className="flex flex-col items-center justify-center gap-4 p-6">
+                    <div className="text-4xl font-bold">{project.budget}</div>
+                    <div className="text-lg font-medium">{project.title}</div>
+                    <div className="relative w-full">
+                      <Progress
+                        value={project.progress > 100 ? 100 : project.progress}
+                        className="w-full"
+                      />
 
-                    {!isNaN(project?.progress) && (
-                      <div className="absolute inset-0 flex items-center justify-center text-black font-light">
-                        {Math.round(project.progress)}%
-                      </div>
-                    )}
-                  </div>
+                      {!isNaN(project?.progress) && (
+                        <div className="absolute inset-0 flex items-center justify-center text-black font-light">
+                          {Math.round(project.progress)}%
+                        </div>
+                      )}
+                    </div>
 
-                  <div className="text-gray-500 dark:text-gray-400">
-                    {project.description}
-                  </div>
-                  <div className="flex gap-2 mt-4">
-                    {project.tags.map((tag) => {
-                      const config = colorConfig[tag] || colorConfig.default;
-                      return (
-                        <Badge
-                          key={tag}
-                          variant={filters.includes(tag) ? "filled" : "outline"}
-                          className={`${config.border} ${
-                            filters.includes(tag)
-                              ? `${config.bg} text-white`
-                              : "white dark:bg-gray-950 text-gray-500 dark:text-gray-400"
-                          }`}
-                        >
-                          {tag}
-                        </Badge>
-                      );
-                    })}
-                  </div>
-                  <Button variant="outline" className="mt-4">
+                    <div className="text-gray-500 dark:text-gray-400">
+                      {project.description}
+                    </div>
+                    <div className="flex gap-2 mt-4">
+                      {project.tags.map((tag) => {
+                        const config = colorConfig[tag] || colorConfig.default;
+                        return (
+                          <Badge
+                            key={tag}
+                            variant={
+                              filters.includes(tag) ? "filled" : "outline"
+                            }
+                            className={`${config.border} ${
+                              filters.includes(tag)
+                                ? `${config.bg} text-white`
+                                : "white dark:bg-gray-950 text-gray-500 dark:text-gray-400"
+                            }`}
+                          >
+                            {tag}
+                          </Badge>
+                        );
+                      })}
+                    </div>
+                    {/* <Button variant="outline" className="mt-4">
                     Report
-                  </Button>
-                </CardContent>
+                  </Button> */}
+                  </CardContent>
+                </div>
               </Card>
             );
           }
