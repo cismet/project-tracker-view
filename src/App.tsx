@@ -1,163 +1,134 @@
-/**
- * v0 by Vercel.
- * @see https://v0.dev/t/9sQ0rSmy3Ga
- * Documentation: https://v0.dev/docs#integrating-generated-code-into-your-nextjs-app
- */
-
-import { useState } from "react";
+import { useState, useEffect, useRef } from "react";
 import { Badge } from "@/components/ui/badge";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Progress } from "@/components/ui/progress";
-import { Heading1Icon } from "lucide-react";
 
 export default function Component() {
   const [filters, setFilters] = useState([]);
-  const [email, setEmail] = useState("");
+  const [login, setLogin] = useState("");
   const [password, setPassword] = useState("");
-  const projects = [
-    {
-      id: "10_ALKIS_Upgrade_2024",
-      title: "ALKIS Umstellung",
-      description: "der Benutzungskomponente",
-      tags: ["WuNDa", "vor RV"],
-      budget: 40,
-      progress: 20,
-    },
-    {
-      id: "10_Altlastenkataster",
-      title: "Altlastenkataster",
-      description: "10_Altlastenkataster",
-      tags: ["WuNDa", "vor RV"],
+  const [isLoggedIn, setIsLoggedIn] = useState(false);
+  const [projects, setProjects] = useState([]);
+  const projectsRef = useRef();
+  const [projectsConfig, setProjectsConfig] = useState([]);
 
-      budget: 0,
-      progress: 0,
-    },
-    {
-      id: "10_DZ_B_3DI_3D_und_Integration",
-      title: "DZ_B_3DI",
-      description: "3D und Integration",
-      tags: ["DZ"],
-      budget: 0,
-      progress: 0,
-    },
-    {
-      id: "10_DZ_B_GA0_GenApp0",
-      title: "DZ_B_GA0",
-      description: "GenApp0",
-      tags: ["DZ"],
-      budget: 0,
-      progress: 0,
-    },
-    {
-      id: "10_DZ_B_KHB_Konventionenhandbuch",
-      title: "DZ_B_KHB",
-      description: "Konventionenhandbuch",
-      tags: ["DZ"],
-      budget: 0,
-      progress: 0,
-    },
-    {
-      id: "10_DZ_B_QTZ1-TopicMaps2Zwilling",
-      title: "DZ_B_QTZ1",
-      description: "TopicMaps2Zwilling",
-      tags: ["DZ"],
-      budget: 0,
-      progress: 0,
-    },
-    {
-      id: "10_EUS_Sandra",
-      title: "EUS_Sandra",
-      description: "10_EUS_Sandra",
-      tags: ["WuNDa", "vor RV"],
-      budget: 0,
-      progress: 0,
-    },
-    {
-      id: "60_ALWIS Kontingent",
-      title: "ALWIS Kontingent",
-      description: "Wartungskontingent",
-      tags: ["WuNDa", "Kontingent"],
-      budget: 0,
-      progress: 0,
-    },
-    {
-      id: "60_BelIS Kontingent",
-      title: "BelIS Kontingent",
-      description: "Wartungskontingent",
-      tags: ["BelIS", "Kontingent"],
-      budget: 0,
-      progress: 0,
-    },
-    {
-      id: "60_LagIS Kontingent",
-      title: "LagIS Kontingent",
-      description: "Wartungskontingent",
-      tags: ["LagIS", "Kontingent"],
-      budget: 0,
-      progress: 0,
-    },
-    {
-      id: "60_Umwelt Kontingent",
-      title: "Umwelt Kontingent",
-      description: "Wartungskontingent",
-      tags: ["Umwelt", "Kontingent"],
-      budget: 0,
-      progress: 0,
-    },
-    {
-      id: "60_VerdIS Kontingent",
-      title: "VerdIS Kontingent",
-      description: "Warungskontingent",
-      tags: ["VerdIS", "Kontingent"],
-      budget: 0,
-      progress: 0,
-    },
-    {
-      id: "60_WuNDa Kontingent",
-      title: "WuNDa Kontingent",
-      description: "Warungskontingent",
-      tags: ["WuNDa", "Kontingent"],
-      budget: 0,
-      progress: 0,
-    },
-    // {
-    //   id: "70_W_B_Sec_DMZ_Infrastruktur",
-    //   title: "W_B_Sec_DMZ_Infrastruktur",
-    //   description: "70_W_B_Sec_DMZ_Infrastruktur",
-    //   tags: [],
-    //   budget: 0,
-    //   progress: 0,
-    // },
-    // {
-    //   id: "70_WuNDa Konsolidierung 2021",
-    //   title: "WuNDa Konsolidierung 2021",
-    //   description: "70_WuNDa Konsolidierung 2021",
-    //   tags: [],
-    //   budget: 0,
-    //   progress: 0,
-    // },
-    // {
-    //   id: "80_Wartung",
-    //   title: "Wartung",
-    //   description: "80_Wartung",
-    //   tags: [],
-    //   budget: 0,
-    //   progress: 0,
-    // },
-    // {
-    //   id: "90_Akquise",
-    //   title: "Akquise",
-    //   description: "90_Akquise",
-    //   tags: [],
-    //   budget: 0,
-    //   progress: 0,
-    // },
-  ];
-  const filteredProjects = projects.filter((project) =>
-    filters.every((tag) => project.tags.includes(tag))
-  );
+  useEffect(() => {
+    projectsRef.current = projects;
+  }, [projects]);
+
+  useEffect(() => {
+    console.log("init");
+
+    const storedLogin = localStorage.getItem("login");
+    const storedPassword = localStorage.getItem("password");
+    if (storedLogin && storedPassword) {
+      setLogin(storedLogin);
+      setPassword(storedPassword);
+      setIsLoggedIn(true);
+    }
+
+    fetch("/conf/projects.json")
+      .then((response) => response.json())
+      .then((data) => {
+        const updatedProjects = data.map((project) => ({
+          ...project,
+          visible: false,
+        }));
+        setProjectsConfig(updatedProjects);
+      })
+      .catch((error) => console.error("Error loading projects:", error));
+  }, []);
+
+  useEffect(() => {
+    if (projectsConfig.length > 0) {
+      setProjects(projectsConfig);
+      setTimeout(() => {
+        handleRefresh();
+      }, 1000);
+    }
+  }, [projectsConfig]);
+
+  const handleLogin = () => {
+    localStorage.setItem("login", login);
+    localStorage.setItem("password", password);
+    setIsLoggedIn(true);
+    handleRefresh();
+  };
+
+  const handleLogout = () => {
+    localStorage.removeItem("password");
+    setPassword("");
+    setIsLoggedIn(false);
+    handleRefresh();
+  };
+
+  const handleRefresh = async () => {
+    if (projectsRef.current) {
+      for (const project of projectsRef.current) {
+        refreshProject(project);
+      }
+    }
+  };
+
+  const refreshProject = async (project) => {
+    project.isLoading = true;
+    setProjects((prevProjects) => [...prevProjects]);
+
+    let datefilter = "";
+    const today = new Date();
+    const yyyy = today.getFullYear();
+    const mm = String(today.getMonth() + 1).padStart(2, "0");
+    const dd = String(today.getDate()).padStart(2, "0");
+
+    const formattedToday = `${yyyy}-${mm}-${dd}`;
+
+    if (project.datefrom) {
+      datefilter = `${project.datefrom}:${formattedToday}`;
+    } else {
+      datefilter = "1900-01-01:" + formattedToday;
+    }
+
+    const url = `https://tracker.cismet.de/ProjectTracker/ProjectTracker/Search?username=${login}&password=${password}&project=Wuppertal&workpackage=${project.id}&details=true&datefilter=${datefilter}`;
+
+    try {
+      const response = await fetch(url, { method: "GET", mode: "cors" });
+
+      if (!response.ok) {
+        // if (response.status === 403) {
+        //   // Suppress log for permission errors
+        //   console.warn(`No permission to access project ${project.id}`);
+        // } else {
+        //   throw new Error(`Error fetching data: ${response.statusText}`);
+        // }
+        return project; // Return the project as-is if there's an error
+      }
+
+      const data = await response.json();
+
+      const balance = data.reduce((sum, entry) => sum + entry.workinghours, 0);
+      const projectHours = project.budget * 8;
+      const done = balance + projectHours;
+      const progress = (done / projectHours) * 100;
+
+      project.balance = balance;
+      project.progress = progress;
+      project.visible = true;
+    } catch (error) {
+      // console.error(`Error fetching data for project ${project.id}:`, error);
+    } finally {
+      project.isLoading = false;
+      setProjects((prevProjects) => [...prevProjects]);
+    }
+  };
+
+  let filteredProjects = [];
+  if (projectsRef.current) {
+    filteredProjects = projectsRef.current.filter((project) =>
+      filters.every((tag) => project.tags.includes(tag))
+    );
+  }
   const toggleFilter = (tag) => {
     if (filters.includes(tag)) {
       setFilters(filters.filter((f) => f !== tag));
@@ -213,7 +184,10 @@ export default function Component() {
   const tags = Object.keys(colorConfig).filter((tag) => tag !== "default");
 
   return (
-    <div className="max-w-7xl mx-auto py-8 px-4 sm:px-6 lg:px-8">
+    <div
+      key={"div" + isLoggedIn}
+      className="max-w-7xl mx-auto py-8 px-4 sm:px-6 lg:px-8"
+    >
       <div className="flex items-center justify-between mb-6">
         <div>
           <Progress value={100} />
@@ -240,184 +214,97 @@ export default function Component() {
           </div>
         </div>
         <div className="flex items-center gap-4">
-          <Input
-            type="email"
-            placeholder="Email"
-            value={email}
-            onChange={(e) => setEmail(e.target.value)}
-          />
-          <Input
-            type="password"
-            placeholder="Password"
-            value={password}
-            onChange={(e) => setPassword(e.target.value)}
-          />
-          <Button>Login</Button>
+          {isLoggedIn ? (
+            <>
+              <Input
+                disabled={true}
+                type="login"
+                placeholder="Login"
+                value={login}
+                onChange={(e) => setLogin(e.target.value)}
+              />
+              <Input
+                disabled={true}
+                type="password"
+                placeholder="Password"
+                value={"password"}
+              />
+
+              <Button onClick={handleRefresh}>Refresh</Button>
+              <Button onClick={handleLogout}>Logout</Button>
+            </>
+          ) : (
+            <>
+              <Input
+                type="login"
+                placeholder="Login"
+                value={login}
+                onChange={(e) => setLogin(e.target.value)}
+              />
+              <Input
+                type="password"
+                placeholder="Password"
+                value={password}
+                onChange={(e) => setPassword(e.target.value)}
+              />
+              <Button onClick={handleLogin}>Login</Button>
+            </>
+          )}
         </div>
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-        {filteredProjects.map((project) => (
-          <Card key={project.id}>
-            <CardContent className="flex flex-col items-center justify-center gap-4 p-6">
-              <div className="text-4xl font-bold">{project.budget}</div>
-              <div className="text-lg font-medium">{project.title}</div>
-              <Progress value={project.progress} className="w-full" />
-              {/* <Progress value={project.progress} className="w-full">
-                <span className="text-sm font-medium text-gray-700 dark:text-gray-300">
-                  {project.progress}%
-                </span>{" "}
-              </Progress> */}
-              {/* <Progress value={50} className="w-full" /> */}
-              <div className="text-gray-500 dark:text-gray-400">
-                {project.description}
-              </div>
-              <div className="flex gap-2 mt-4">
-                {project.tags.map((tag) => {
-                  const config = colorConfig[tag] || colorConfig.default;
-                  return (
-                    <Badge
-                      key={tag}
-                      variant={filters.includes(tag) ? "filled" : "outline"}
-                      className={`${config.border} ${
-                        filters.includes(tag)
-                          ? `${config.bg} text-white`
-                          : "white dark:bg-gray-950 text-gray-500 dark:text-gray-400"
-                      }`}
-                    >
-                      {tag}
-                    </Badge>
-                  );
-                })}
-              </div>
-            </CardContent>
-          </Card>
-        ))}
-      </div>
-    </div>
-  );
-  return (
-    <div className="max-w-6xl mx-auto py-8 px-4 sm:px-6 lg:px-8">
-      <div className="flex items-center justify-between mb-6">
-        <div className="flex items-center gap-4">
-          <div className="flex flex-wrap gap-2">
-            {["DZ", "Wunda", "Marketing", "Design", "Engineering", "Data"].map(
-              (tag) => (
-                <Badge
-                  key={tag}
-                  variant={filters.includes(tag) ? "filled" : "outline"}
-                  className={`${
-                    tag === "Support"
-                      ? "border-green-600"
-                      : tag === "DZ"
-                      ? "border-blue-600"
-                      : tag === "Wunda"
-                      ? "border-orange-600"
-                      : tag === "Marketing"
-                      ? "border-pink-600"
-                      : tag === "Design"
-                      ? "border-purple-600"
-                      : tag === "Engineering"
-                      ? "border-indigo-600"
-                      : "border-gray-600"
-                  } ${
-                    filters.includes(tag)
-                      ? `${
-                          tag === "Support"
-                            ? "bg-green-600"
-                            : tag === "DZ"
-                            ? "bg-blue-600"
-                            : tag === "Wunda"
-                            ? "bg-orange-600"
-                            : tag === "Marketing"
-                            ? "bg-pink-600"
-                            : tag === "Design"
-                            ? "bg-purple-600"
-                            : tag === "Engineering"
-                            ? "bg-indigo-600"
-                            : "bg-gray-600"
-                        } text-white`
-                      : "white dark:bg-gray-950 text-gray-500 dark:text-gray-400"
-                  }`}
-                  onClick={() => toggleFilter(tag)}
-                >
-                  {tag}
-                </Badge>
-              )
-            )}
-          </div>
-        </div>
-        <div className="flex items-center gap-4">
-          <Input
-            type="email"
-            placeholder="Email"
-            value={email}
-            onChange={(e) => setEmail(e.target.value)}
-          />
-          <Input
-            type="password"
-            placeholder="Password"
-            value={password}
-            onChange={(e) => setPassword(e.target.value)}
-          />
-          <Button>Login</Button>
-        </div>
-      </div>
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-        {filteredProjects.map((project) => (
-          <Card key={project.id}>
-            <CardContent className="flex flex-col items-center justify-center gap-4 p-6">
-              <div className="text-4xl font-bold">{project.budget}</div>
-              <div className="text-lg font-medium">{project.title}</div>
-              <Progress value={project.progress} className="w-full" />
-              <div className="text-gray-500 dark:text-gray-400">
-                {project.description}
-              </div>
-              <div className="flex gap-2 mt-4">
-                {project.tags.map((tag) => (
-                  <Badge
-                    key={tag}
-                    variant={filters.includes(tag) ? "filled" : "outline"}
-                    className={`${
-                      tag === "Support"
-                        ? "border-green-600"
-                        : tag === "DZ"
-                        ? "border-blue-600"
-                        : tag === "Wunda"
-                        ? "border-orange-600"
-                        : tag === "Marketing"
-                        ? "border-pink-600"
-                        : tag === "Design"
-                        ? "border-purple-600"
-                        : tag === "Engineering"
-                        ? "border-indigo-600"
-                        : "border-gray-600"
-                    } ${
-                      filters.includes(tag)
-                        ? `${
-                            tag === "Support"
-                              ? "bg-green-600"
-                              : tag === "DZ"
-                              ? "bg-blue-600"
-                              : tag === "Wunda"
-                              ? "bg-orange-600"
-                              : tag === "Marketing"
-                              ? "bg-pink-600"
-                              : tag === "Design"
-                              ? "bg-purple-600"
-                              : tag === "Engineering"
-                              ? "bg-indigo-600"
-                              : "bg-gray-600"
-                          } text-white`
-                        : "white dark:bg-gray-950 text-gray-500 dark:text-gray-400"
-                    }`}
-                  >
-                    {tag}
-                  </Badge>
-                ))}
-              </div>
-            </CardContent>
-          </Card>
-        ))}
+        {filteredProjects.map((project) => {
+          if (project.visible) {
+            return (
+              <Card
+                key={project.id}
+                className={project.isLoading ? "loading" : ""}
+              >
+                <CardContent className="flex flex-col items-center justify-center gap-4 p-6">
+                  <div className="text-4xl font-bold">{project.budget}</div>
+                  <div className="text-lg font-medium">{project.title}</div>
+                  <div className="relative w-full">
+                    <Progress
+                      value={project.progress > 100 ? 100 : project.progress}
+                      className="w-full"
+                    />
+
+                    {!isNaN(project?.progress) && (
+                      <div className="absolute inset-0 flex items-center justify-center text-black font-light">
+                        {Math.round(project.progress)}%
+                      </div>
+                    )}
+                  </div>
+
+                  <div className="text-gray-500 dark:text-gray-400">
+                    {project.description}
+                  </div>
+                  <div className="flex gap-2 mt-4">
+                    {project.tags.map((tag) => {
+                      const config = colorConfig[tag] || colorConfig.default;
+                      return (
+                        <Badge
+                          key={tag}
+                          variant={filters.includes(tag) ? "filled" : "outline"}
+                          className={`${config.border} ${
+                            filters.includes(tag)
+                              ? `${config.bg} text-white`
+                              : "white dark:bg-gray-950 text-gray-500 dark:text-gray-400"
+                          }`}
+                        >
+                          {tag}
+                        </Badge>
+                      );
+                    })}
+                  </div>
+                  <Button variant="outline" className="mt-4">
+                    Report
+                  </Button>
+                </CardContent>
+              </Card>
+            );
+          }
+        })}
       </div>
     </div>
   );
