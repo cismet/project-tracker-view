@@ -50,7 +50,7 @@ export default function Component() {
       setIsLoggedIn(true);
     }
 
-    fetch("/conf/projects.json")
+    fetch("./conf/projects.json")
       .then((response) => response.json())
       .then((data) => {
         const updatedProjects = data.map((project: Project) => ({
