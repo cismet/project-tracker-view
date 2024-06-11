@@ -10,8 +10,24 @@ import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faTableCells } from "@fortawesome/free-solid-svg-icons";
 import { createMarkdownTableFromProjectData } from "./lib/utils";
 
+interface Project {
+  id: string;
+  budget: number;
+  title: string;
+  description: string;
+  tags: string[];
+  visible: boolean;
+  isLoading?: boolean;
+  balance?: number;
+  progress?: number;
+  details?: string;
+  github?: string;
+  hideDetails?: boolean;
+  datefrom?: string;
+}
+
 export default function Component() {
-  const [filters, setFilters] = useState([]);
+  const [filters, setFilters] = useState<string[]>([]);
   const [login, setLogin] = useState("");
   const [password, setPassword] = useState("");
   const [isLoggedIn, setIsLoggedIn] = useState(false);
@@ -37,7 +53,7 @@ export default function Component() {
     fetch("/conf/projects.json")
       .then((response) => response.json())
       .then((data) => {
-        const updatedProjects = data.map((project) => ({
+        const updatedProjects = data.map((project: Project) => ({
           ...project,
           visible: false,
         }));
@@ -77,7 +93,7 @@ export default function Component() {
     }
   };
 
-  const refreshProject = async (project) => {
+  const refreshProject = async (project: Project) => {
     project.isLoading = true;
     setProjects((prevProjects) => [...prevProjects]);
 
@@ -113,7 +129,11 @@ export default function Component() {
       const data = await response.json();
       // console.log(project.id, JSON.stringify(data, null, 2));
 
-      const balance = data.reduce((sum, entry) => sum + entry.workinghours, 0);
+      const balance = data.reduce(
+        (sum: number, entry: { workinghours: number }) =>
+          sum + entry.workinghours,
+        0
+      );
       const projectHours = project.budget * 8;
       const done = balance + projectHours;
       const progress = (done / projectHours) * 100;
@@ -131,13 +151,13 @@ export default function Component() {
     }
   };
 
-  let filteredProjects = [];
+  let filteredProjects: Project[] = [];
   if (projectsRef.current) {
-    filteredProjects = projectsRef.current.filter((project) =>
-      filters.every((tag) => project.tags.includes(tag))
+    filteredProjects = projectsRef.current.filter((project: Project) =>
+      filters.every((tag) => project.tags?.includes(tag))
     );
   }
-  const toggleFilter = (tag) => {
+  const toggleFilter = (tag: string) => {
     if (filters.includes(tag)) {
       setFilters(filters.filter((f) => f !== tag));
     } else {
@@ -145,7 +165,7 @@ export default function Component() {
     }
   };
 
-  const colorConfig = {
+  const colorConfig: { [key: string]: { border: string; bg: string } } = {
     DZ: {
       border: "border-blue-600",
       bg: "bg-blue-600",
@@ -194,7 +214,7 @@ export default function Component() {
       return false;
     } else {
       return projectsRef.current.some(
-        (project) => project.visible && project.tags.includes(tag)
+        (project: Project) => project.visible && project.tags.includes(tag)
       );
     }
   });
@@ -215,7 +235,7 @@ export default function Component() {
               return (
                 <Badge
                   key={tag}
-                  variant={filters.includes(tag) ? "filled" : "outline"}
+                  variant={filters.includes(tag) ? "destructive" : "outline"}
                   className={`${config.border} ${
                     filters.includes(tag)
                       ? `${config.bg} text-white`
@@ -292,7 +312,7 @@ export default function Component() {
                     <button
                       onClick={() => {
                         navigator.clipboard
-                          .writeText(project.details)
+                          .writeText(project?.details || "empty")
                           .then(() => {
                             console.log("Text copied to clipboard");
                           })
@@ -310,15 +330,20 @@ export default function Component() {
                     <div className="text-lg font-medium">{project.title}</div>
                     <div className="relative w-full">
                       <Progress
-                        value={project.progress > 100 ? 100 : project.progress}
+                        value={
+                          (project?.progress || 0) > 100
+                            ? 100
+                            : project?.progress || 0
+                        }
                         className="w-full"
                       />
 
-                      {!isNaN(project?.progress) && (
-                        <div className="absolute inset-0 flex items-center justify-center text-black font-light">
-                          {Math.round(project.progress)}%
-                        </div>
-                      )}
+                      {project.progress !== undefined &&
+                        !isNaN(project.progress) && (
+                          <div className="absolute inset-0 flex items-center justify-center text-black font-light">
+                            {Math.round(project.progress)}%
+                          </div>
+                        )}
                     </div>
 
                     <div className="text-gray-500 dark:text-gray-400">
@@ -331,7 +356,7 @@ export default function Component() {
                           <Badge
                             key={tag}
                             variant={
-                              filters.includes(tag) ? "filled" : "outline"
+                              filters.includes(tag) ? "default" : "outline"
                             }
                             className={`${config.border} ${
                               filters.includes(tag)

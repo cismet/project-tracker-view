@@ -18,7 +18,7 @@ export function createMarkdownTableFromProjectData(projectData: any[]): string {
     );
 
     return `| ${day} | ${name} | ${getFormatedWorkingHours(
-      workingHours
+      parseFloat(workingHours)
     )} | ${description} |`;
   });
 
