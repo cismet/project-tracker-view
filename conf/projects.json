@@ -1,0 +1,111 @@
+[
+  {
+    "id": "10_ALKIS_Upgrade_2024",
+    "title": "ALKIS Umstellung",
+    "description": "der Benutzungskomponente",
+    "tags": ["WuNDa", "vor RV"],
+    "budget": 40
+  },
+  {
+    "id": "10_Altlastenkataster",
+    "title": "Altlastenkataster",
+    "description": "10_Altlastenkataster",
+    "tags": ["WuNDa", "vor RV"],
+    "budget": 8,
+    "hideDetails": true
+  },
+  {
+    "id": "10_DZ_B_3DI_3D_und_Integration",
+    "title": "DZ_B_3DI",
+    "description": "3D und Integration",
+    "tags": ["DZ"],
+    "budget": 60,
+    "github": "https://github.com/cismet/wupp/milestone/125"
+  },
+  {
+    "id": "10_DZ_B_GA0_GenApp0",
+    "title": "DZ_B_GA0",
+    "description": "GenApp0",
+    "tags": ["DZ"],
+    "budget": 50,
+    "github": "https://github.com/cismet/wupp/milestone/127"
+  },
+  {
+    "id": "10_DZ_B_KHB_Konventionenhandbuch",
+    "title": "DZ_B_KHB",
+    "description": "Konventionenhandbuch",
+    "tags": ["DZ"],
+    "budget": 5,
+    "github": "https://github.com/cismet/wupp/milestone/124"
+  },
+  {
+    "id": "10_DZ_B_QTZ1-TopicMaps2Zwilling",
+    "title": "DZ_B_QTZ1",
+    "description": "TopicMaps2Zwilling",
+    "tags": ["DZ"],
+    "budget": 50,
+    "github": "https://github.com/cismet/wupp/milestone/128"
+  },
+  {
+    "id": "10_EUS_Sandra",
+    "title": "EUS_Sandra",
+    "description": "10_EUS_Sandra",
+    "tags": ["WuNDa", "vor RV"],
+    "budget": 5,
+    "hideDetails": true
+  },
+  {
+    "id": "60_ALWIS Kontingent",
+    "title": "ALWIS Kontingent",
+    "description": "Wartungskontingent",
+    "tags": ["WuNDa", "Kontingent"],
+    "budget": 6,
+    "github": "https://github.com/cismet/wupp/milestone/11",
+    "datefrom": "2024-01-02"
+  },
+  {
+    "id": "60_BelIS Kontingent",
+    "title": "BelIS Kontingent",
+    "description": "Wartungskontingent",
+    "tags": ["BelIS", "Kontingent"],
+    "budget": 3,
+    "github": "https://github.com/cismet/wupp/milestone/26",
+    "datefrom": "2024-01-02"
+  },
+  {
+    "id": "60_LagIS Kontingent",
+    "title": "LagIS Kontingent",
+    "description": "Wartungskontingent",
+    "tags": ["LagIS", "Kontingent"],
+    "budget": 6,
+    "github": "https://github.com/cismet/wupp/milestone/3",
+    "datefrom": "2024-01-02"
+  },
+  {
+    "id": "60_Umwelt Kontingent",
+    "title": "Umwelt Kontingent",
+    "description": "Wartungskontingent",
+    "tags": ["Umwelt", "Kontingent"],
+    "budget": 8,
+    "github": "https://github.com/cismet/wupp/milestone/83",
+    "datefrom": "2024-01-02"
+  },
+  {
+    "id": "60_VerdIS Kontingent",
+    "title": "VerdIS Kontingent",
+    "description": "Warungskontingent",
+    "tags": ["VerDIS", "Kontingent"],
+    "budget": 6,
+    "github": "https://github.com/cismet/wupp/milestone/2",
+    "datefrom": "2024-01-02"
+  },
+  {
+    "id": "60_WuNDa Kontingent",
+    "title": "WuNDa Kontingent",
+    "description": "Warungskontingent",
+    "tags": ["WuNDa", "Kontingent"],
+    "budget": 12,
+    "github": "https://github.com/cismet/wupp/milestone/1",
+    "datefrom": "2024-01-02"
+  }
+]
