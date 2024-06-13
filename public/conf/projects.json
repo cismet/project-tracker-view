@@ -93,7 +93,7 @@
   {
     "id": "60_VerdIS Kontingent",
     "title": "VerdIS Kontingent",
-    "description": "Warungskontingent",
+    "description": "Wartungskontingent",
     "tags": ["VerDIS", "Kontingent"],
     "budget": 6,
     "github": "https://github.com/cismet/wupp/milestone/2",
@@ -102,10 +102,25 @@
   {
     "id": "60_WuNDa Kontingent",
     "title": "WuNDa Kontingent",
-    "description": "Warungskontingent",
+    "description": "Wartungskontingent",
     "tags": ["WuNDa", "Kontingent"],
     "budget": 12,
     "github": "https://github.com/cismet/wupp/milestone/1",
     "datefrom": "2024-01-02"
+  },
+  {
+    "id": "70_W_B_Sec_Infrastruktur",
+    "title": "W_B_Sec",
+    "description": "Unterstützung wegen Security Incident",
+    "tags": ["WuNDa"],
+    "budget": 5
+  },
+  {
+    "id": "70_DZ_E_GA0-1_Implementierung_und_Release_GenApp0",
+    "title": "DZ_E_GA0-1",
+    "description": "Implementierung_und_Release_GenApp0",
+    "tags": ["DZ"],
+    "github": "https://github.com/cismet/wupp/milestone/130",
+    "budget": 50
   }
 ]
