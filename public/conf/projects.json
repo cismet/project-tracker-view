@@ -109,9 +109,9 @@
     "datefrom": "2024-01-02"
   },
   {
-    "id": "70_W_B_Sec_Infrastruktur",
-    "title": "W_B_Sec",
-    "description": "Unterstützung wegen Security Incident",
+    "id": "70_W_B_Sec_DMZ_Infrastruktur",
+    "title": "W_B_Sec_DMZ_Infrastruktur",
+    "description": "Unterstützung DMZ Infrastruktur",
     "tags": ["WuNDa"],
     "budget": 5
   },
@@ -121,6 +121,6 @@
     "description": "Implementierung_und_Release_GenApp0",
     "tags": ["DZ"],
     "github": "https://github.com/cismet/wupp/milestone/130",
-    "budget": 50
+    "budget": 0
   }
 ]
