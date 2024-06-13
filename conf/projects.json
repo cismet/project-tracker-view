@@ -39,6 +39,14 @@
     "github": "https://github.com/cismet/wupp/milestone/124"
   },
   {
+    "id": "10_DZ_B_QTZ_TopicMaps2Zwilling",
+    "title": "DZ_B_QTZ",
+    "description": "TopicMaps2Zwilling",
+    "tags": ["DZ"],
+    "budget": 50,
+    "github": "https://github.com/cismet/wupp/milestone/126"
+  },
+  {
     "id": "10_DZ_B_QTZ1-TopicMaps2Zwilling",
     "title": "DZ_B_QTZ1",
     "description": "TopicMaps2Zwilling",
