@@ -137,9 +137,12 @@ export default function Component() {
       const projectHours = project.budget * 8;
       const done = balance + projectHours;
       const progress = (done / projectHours) * 100;
-
+      if (projectHours === 0) {
+        project.progress = undefined;
+      } else {
+        project.progress = progress;
+      }
       project.balance = balance;
-      project.progress = progress;
       project.visible = true;
       project.details = createMarkdownTableFromProjectData(data);
       // console.log(project.id, project.details);
@@ -342,6 +345,13 @@ export default function Component() {
                         !isNaN(project.progress) && (
                           <div className="absolute inset-0 flex items-center justify-center text-black font-light">
                             {Math.round(project.progress)}%
+                          </div>
+                        )}
+                      {project.progress === undefined &&
+                        project.balance !== undefined &&
+                        !isNaN(project.balance) && (
+                          <div className="absolute inset-0 flex items-center justify-center text-black font-light">
+                            {Math.round(project.balance)}h
                           </div>
                         )}
                     </div>
