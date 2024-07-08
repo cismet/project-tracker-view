@@ -1,0 +1,25 @@
+[
+  {
+    "id": "10_DZ_B_KHB_Konventionenhandbuch",
+    "title": "DZ_B_KHB",
+    "description": "Konventionenhandbuch",
+    "tags": ["DZ"],
+    "budget": 5,
+    "github": "https://github.com/cismet/wupp/milestone/124"
+  },
+  {
+    "id": "10_DZ_B_QTZ_TopicMaps2Zwilling",
+    "title": "DZ_B_QTZ",
+    "description": "TopicMaps2Zwilling",
+    "tags": ["DZ"],
+    "budget": 50,
+    "github": "https://github.com/cismet/wupp/milestone/126"
+  },
+  {
+    "id": "70_W_B_Sec_DMZ_Infrastruktur",
+    "title": "W_B_Sec_DMZ_Infrastruktur",
+    "description": "Unterstützung DMZ Infrastruktur",
+    "tags": ["WuNDa"],
+    "budget": 5
+  }
+]
