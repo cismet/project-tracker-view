@@ -20,7 +20,8 @@
     "title": "DZ_B_VTI",
     "description": "Beratung zur Integration von Vector Tiles und MapLibre",
     "tags": ["DZ"],
-    "budget": 50
+    "budget": 50,
+    "github": "https://github.com/cismet/wupp/milestone/132"
   },
   {
     "id": "10_DZ_B_3DI_3D_und_Integration",
