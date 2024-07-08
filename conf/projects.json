@@ -14,6 +14,14 @@
     "budget": 8,
     "hideDetails": true
   },
+
+  {
+    "id": "10_DZ_B_VTI_VectorTiles_und_Maplibre",
+    "title": "DZ_B_VTI",
+    "description": "Beratung zur Integration von Vector Tiles und MapLibre",
+    "tags": ["DZ"],
+    "budget": 50
+  },
   {
     "id": "10_DZ_B_3DI_3D_und_Integration",
     "title": "DZ_B_3DI",
@@ -31,20 +39,12 @@
     "github": "https://github.com/cismet/wupp/milestone/127"
   },
   {
-    "id": "10_DZ_B_KHB_Konventionenhandbuch",
-    "title": "DZ_B_KHB",
-    "description": "Konventionenhandbuch",
+    "id": "70_DZ_E_GA0-1_Implementierung_und_Release_GenApp0",
+    "title": "DZ_E_GA0-1",
+    "description": "Implementierung_und_Release_GenApp0",
     "tags": ["DZ"],
-    "budget": 5,
-    "github": "https://github.com/cismet/wupp/milestone/124"
-  },
-  {
-    "id": "10_DZ_B_QTZ_TopicMaps2Zwilling",
-    "title": "DZ_B_QTZ",
-    "description": "TopicMaps2Zwilling",
-    "tags": ["DZ"],
-    "budget": 50,
-    "github": "https://github.com/cismet/wupp/milestone/126"
+    "github": "https://github.com/cismet/wupp/milestone/130",
+    "budget": 0
   },
   {
     "id": "10_DZ_B_QTZ1-TopicMaps2Zwilling",
@@ -115,20 +115,5 @@
     "budget": 12,
     "github": "https://github.com/cismet/wupp/milestone/1",
     "datefrom": "2024-01-02"
-  },
-  {
-    "id": "70_W_B_Sec_DMZ_Infrastruktur",
-    "title": "W_B_Sec_DMZ_Infrastruktur",
-    "description": "Unterstützung DMZ Infrastruktur",
-    "tags": ["WuNDa"],
-    "budget": 5
-  },
-  {
-    "id": "70_DZ_E_GA0-1_Implementierung_und_Release_GenApp0",
-    "title": "DZ_E_GA0-1",
-    "description": "Implementierung_und_Release_GenApp0",
-    "tags": ["DZ"],
-    "github": "https://github.com/cismet/wupp/milestone/130",
-    "budget": 0
   }
 ]
