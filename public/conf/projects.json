@@ -31,14 +31,7 @@
     "budget": 60,
     "github": "https://github.com/cismet/wupp/milestone/125"
   },
-  {
-    "id": "10_DZ_B_GA0_GenApp0",
-    "title": "DZ_B_GA0",
-    "description": "GenApp0",
-    "tags": ["DZ"],
-    "budget": 50,
-    "github": "https://github.com/cismet/wupp/milestone/127"
-  },
+
   {
     "id": "10_DZ_E_GA0-1_Implementierung_und_Release_GenApp0",
     "title": "DZ_E_GA0-1",
