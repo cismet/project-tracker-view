@@ -21,5 +21,13 @@
     "description": "Unterstützung DMZ Infrastruktur",
     "tags": ["WuNDa"],
     "budget": 5
+  },
+  {
+    "id": "10_DZ_B_GA0_GenApp0",
+    "title": "DZ_B_GA0",
+    "description": "GenApp0",
+    "tags": ["DZ"],
+    "budget": 50,
+    "github": "https://github.com/cismet/wupp/milestone/127"
   }
 ]
