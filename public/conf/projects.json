@@ -6,14 +6,7 @@
     "tags": ["WuNDa", "vor RV"],
     "budget": 40
   },
-  {
-    "id": "10_Altlastenkataster",
-    "title": "Altlastenkataster",
-    "description": "10_Altlastenkataster",
-    "tags": ["WuNDa", "vor RV"],
-    "budget": 8,
-    "hideDetails": true
-  },
+
   {
     "id": "10_WU_B_EAK_Altlasten_Bodenschutz_2407",
     "title": "Erweiterungen Altlastenkataster",
@@ -22,7 +15,6 @@
     "budget": 7.5,
     "github": "https://github.com/cismet/wupp/milestone/133"
   },
-
   {
     "id": "10_DZ_B_VTI_VectorTiles_und_Maplibre",
     "title": "DZ_B_VTI",

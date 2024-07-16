@@ -29,5 +29,13 @@
     "tags": ["DZ"],
     "budget": 50,
     "github": "https://github.com/cismet/wupp/milestone/127"
+  },
+  {
+    "id": "10_Altlastenkataster",
+    "title": "Altlastenkataster",
+    "description": "10_Altlastenkataster",
+    "tags": ["WuNDa", "vor RV"],
+    "budget": 8,
+    "hideDetails": false
   }
 ]
