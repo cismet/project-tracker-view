@@ -24,12 +24,12 @@
     "github": "https://github.com/cismet/wupp/milestone/132"
   },
   {
-    "id": "10_DZ_B_3DI_3D_und_Integration",
-    "title": "DZ_B_3DI",
-    "description": "3D und Integration",
+    "id": "10_DZ_E_3DI-1_3D_Erste_Implementierungen_3D",
+    "title": "DZ_E_3DI-1",
+    "description": "Erste Implementierungen 3D",
     "tags": ["DZ"],
-    "budget": 60,
-    "github": "https://github.com/cismet/wupp/milestone/125"
+    "budget": 50,
+    "github": "https://github.com/cismet/wupp/milestone/134"
   },
 
   {

@@ -37,5 +37,13 @@
     "tags": ["WuNDa", "vor RV"],
     "budget": 8,
     "hideDetails": false
+  },
+  {
+    "id": "10_DZ_B_3DI_3D_und_Integration",
+    "title": "DZ_B_3DI",
+    "description": "3D und Integration",
+    "tags": ["DZ"],
+    "budget": 60,
+    "github": "https://github.com/cismet/wupp/milestone/125"
   }
 ]
