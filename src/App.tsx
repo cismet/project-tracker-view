@@ -355,10 +355,15 @@ export default function Component() {
                           </div>
                         )}
                     </div>
-
                     <div className="text-gray-500 dark:text-gray-400">
-                      {project.description}
+                      (ca.{" "}
+                      {Math.round(
+                        ((100 - project.progress) / 100) * project.budget
+                      )}{" "}
+                      MT verbleibend)
                     </div>
+                    {project.description}
+                    <div className="text-gray-500 dark:text-gray-400"></div>
                     <div className="flex gap-2 mt-4">
                       {project.tags.map((tag) => {
                         const config = colorConfig[tag] || colorConfig.default;
