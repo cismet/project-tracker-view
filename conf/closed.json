@@ -45,5 +45,13 @@
     "tags": ["DZ"],
     "budget": 60,
     "github": "https://github.com/cismet/wupp/milestone/125"
+  },
+  {
+    "id": "99_WuNDa_Konsolidierung_2021",
+    "title": "99_WuNDa_Konsolidierung",
+    "description": "99_WuNDa_Konsolidierung",
+    "tags": ["WuNDa"],
+    "budget": 0,
+    "github": "https://github.com/cismet/wupp/milestone/131"
   }
 ]
