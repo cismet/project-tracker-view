@@ -1,10 +1,11 @@
 [
   {
-    "id": "10_ALKIS_Upgrade_2024",
+    "id": "10_WU_E_UAB-7-ALKIS_Upgrade_7",
     "title": "ALKIS Umstellung",
     "description": "der Benutzungskomponente",
     "tags": ["WuNDa", "vor RV"],
-    "budget": 40
+    "budget": 40,
+    "github": "https://github.com/cismet/wupp/milestone/140"
   },
 
   {
