@@ -42,7 +42,7 @@
     "budget": 75
   },
   {
-    "id": "70_DZ_E_GA0-2_Test_GenApp0",
+    "id": "10_DZ_E_GA0-2_Test_GenApp0",
     "title": "DZ_E_GA0-2",
     "description": "Test_und_Härtung_GenApp0",
     "tags": ["DZ"],
@@ -88,6 +88,14 @@
     "tags": ["TopicMaps"],
     "budget": 24,
     "github": "https://github.com/cismet/wupp/milestone/118"
+  },
+  {
+    "id": "10_VE_E_WVD_2024",
+    "title": "VE_E_WVD",
+    "description": "Weiterentwicklung Verdis-Desktop 2024",
+    "tags": ["VerDIS"],
+    "budget": 12,
+    "github": "https://github.com/cismet/wupp/milestone/141"
   },
   {
     "id": "10_EUS_Sandra",
