@@ -53,5 +53,12 @@
     "tags": ["WuNDa"],
     "budget": 0,
     "github": "https://github.com/cismet/wupp/milestone/131"
-  }
-]
+  },
+  {
+    "id": "10_DZ_E_GA0-1_Implementierung_und_Release_GenApp0",
+    "title": "DZ_E_GA0-1",
+    "description": "Implementierung_und_Release_GenApp0",
+    "tags": ["DZ"],
+    "github": "https://github.com/cismet/wupp/milestone/130",
+    "budget": 75
+  },
