@@ -33,28 +33,12 @@
     "github": "https://github.com/cismet/wupp/milestone/134"
   },
   {
-    "id": "10_DZ_E_GA0-1_Implementierung_und_Release_GenApp0",
-    "title": "DZ_E_GA0-1",
-    "description": "Implementierung_und_Release_GenApp0",
-    "tags": ["DZ"],
-    "github": "https://github.com/cismet/wupp/milestone/130",
-    "budget": 75
-  },
-  {
     "id": "10_DZ_E_GA0-2_Test_GenApp0",
     "title": "DZ_E_GA0-2",
     "description": "Test_und_Härtung_GenApp0",
     "tags": ["DZ"],
     "github": "https://github.com/cismet/wupp/milestone/139",
     "budget": 50
-  },
-  {
-    "id": "10_DZ_B_QTZ1-TopicMaps2Zwilling",
-    "title": "DZ_B_QTZ1",
-    "description": "TopicMaps2Zwilling",
-    "tags": ["DZ"],
-    "budget": 50,
-    "github": "https://github.com/cismet/wupp/milestone/128"
   },
   {
     "id": "10_DZ_B_QTZ2-TopicMaps2Zwilling",
