@@ -41,6 +41,15 @@
     "budget": 50
   },
   {
+    "id": "10_TM_E_WGP_Geoportal",
+    "title": "TM_E_WGP",
+    "description": "Realisierung Geoportal",
+    "tags": ["TM"],
+    "github": "https://github.com/cismet/wupp/milestone/143",
+    "budget": 65
+  },
+
+  {
     "id": "10_DZ_B_QTZ2-TopicMaps2Zwilling",
     "title": "DZ_B_QTZ2",
     "description": "TopicMaps2Zwilling",
