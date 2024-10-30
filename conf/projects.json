@@ -82,6 +82,14 @@
     "github": "https://github.com/cismet/wupp/milestone/118"
   },
   {
+    "id": "10_WU_E_KWB-3",
+    "title": "WU_E_KWB-3",
+    "description": "Async Actions / Decentralised Geoms",
+    "tags": ["WuNDa"],
+    "budget": 30,
+    "github": "https://github.com/cismet/wupp/milestone/144"
+  },
+  {
     "id": "10_VE_E_WVD_2024",
     "title": "VE_E_WVD",
     "description": "Weiterentwicklung Verdis-Desktop 2024",
