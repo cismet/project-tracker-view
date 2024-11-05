@@ -48,7 +48,14 @@
     "github": "https://github.com/cismet/wupp/milestone/143",
     "budget": 65
   },
-
+  {
+    "id": "10_TM_B_HGK-1",
+    "title": "TM_B_HGK-1",
+    "description": "3D-Weiterentwicklung der Hochwassergefahrenkarte",
+    "tags": ["TM"],
+    "github": "https://github.com/cismet/wupp/milestone/145",
+    "_budget": 30
+  },
   {
     "id": "10_DZ_B_QTZ2-TopicMaps2Zwilling",
     "title": "DZ_B_QTZ2",
