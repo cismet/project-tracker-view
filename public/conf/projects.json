@@ -54,7 +54,7 @@
     "description": "3D-Weiterentwicklung der Hochwassergefahrenkarte",
     "tags": ["TM"],
     "github": "https://github.com/cismet/wupp/milestone/145",
-    "_budget": 30
+    "budget": 30
   },
   {
     "id": "10_DZ_B_QTZ2-TopicMaps2Zwilling",
