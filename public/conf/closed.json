@@ -77,5 +77,21 @@
     "tags": ["DZ"],
     "github": "https://github.com/cismet/wupp/milestone/130",
     "budget": 75
+  },
+  {
+    "id": "10_DZ_E_3DI-1_3D_Erste_Implementierungen_3D",
+    "title": "DZ_E_3DI-1",
+    "description": "Erste Implementierungen 3D",
+    "tags": ["DZ"],
+    "budget": 50,
+    "github": "https://github.com/cismet/wupp/milestone/134"
+  },
+  {
+    "id": "10_DZ_E_GA0-2_Test_GenApp0",
+    "title": "DZ_E_GA0-2",
+    "description": "Test_und_Härtung_GenApp0",
+    "tags": ["DZ"],
+    "github": "https://github.com/cismet/wupp/milestone/139",
+    "budget": 50
   }
 ]
