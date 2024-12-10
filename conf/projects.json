@@ -33,6 +33,14 @@
     "budget": 65
   },
   {
+    "id": "10_TM_B_GTM_Wohnlagenkarte",
+    "title": "TM_B_GTM",
+    "description": "Generic TopicMap in carma am Beispiel der Wohnlagenkarte",
+    "tags": ["TM"],
+    "github": "https://github.com/cismet/wupp/milestone/146",
+    "budget": 25
+  },
+  {
     "id": "10_TM_B_HGK-1",
     "title": "TM_B_HGK-1",
     "description": "3D-Weiterentwicklung der Hochwassergefahrenkarte",
