@@ -96,14 +96,7 @@
     "budget": 12,
     "github": "https://github.com/cismet/wupp/milestone/141"
   },
-  {
-    "id": "10_EUS_Sandra",
-    "title": "EUS_Sandra",
-    "description": "10_EUS_Sandra",
-    "tags": ["WuNDa", "vor RV"],
-    "budget": 5,
-    "hideDetails": true
-  },
+
   {
     "id": "60_ALWIS Kontingent",
     "title": "ALWIS Kontingent",
@@ -136,7 +129,7 @@
     "title": "Umwelt Kontingent",
     "description": "Wartungskontingent",
     "tags": ["Umwelt", "Kontingent"],
-    "budget": 8,
+    "budget": 6,
     "github": "https://github.com/cismet/wupp/milestone/83",
     "datefrom": "2024-01-02"
   },

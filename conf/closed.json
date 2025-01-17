@@ -93,5 +93,13 @@
     "tags": ["DZ"],
     "github": "https://github.com/cismet/wupp/milestone/139",
     "budget": 50
+  },
+  {
+    "id": "10_EUS_Sandra",
+    "title": "EUS_Sandra",
+    "description": "10_EUS_Sandra",
+    "tags": ["WuNDa", "vor RV"],
+    "budget": 5,
+    "hideDetails": false
   }
 ]
