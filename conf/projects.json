@@ -89,6 +89,14 @@
     "github": "https://github.com/cismet/wupp/milestone/144"
   },
   {
+    "id": "10_TM_B_BDV-Anpassungen-BPlan-DV",
+    "title": "TM_B_BDV",
+    "description": "Anpassungen BPlan Dokumentenviewer",
+    "tags": ["TopicMaps"],
+    "budget": 10,
+    "github": "https://github.com/cismet/wupp/milestone/148"
+  },
+  {
     "id": "10_VE_E_WVD_2024",
     "title": "VE_E_WVD",
     "description": "Weiterentwicklung Verdis-Desktop 2024",
