@@ -24,14 +24,7 @@
     "budget": 50,
     "github": "https://github.com/cismet/wupp/milestone/132"
   },
-  {
-    "id": "10_TM_E_WGP_Geoportal",
-    "title": "TM_E_WGP",
-    "description": "Realisierung Geoportal",
-    "tags": ["TM"],
-    "github": "https://github.com/cismet/wupp/milestone/143",
-    "budget": 65
-  },
+
   {
     "id": "10_TM_B_GTM_Wohnlagenkarte",
     "title": "TM_B_GTM",
@@ -95,14 +88,6 @@
     "tags": ["TopicMaps"],
     "budget": 10,
     "github": "https://github.com/cismet/wupp/milestone/148"
-  },
-  {
-    "id": "10_VE_E_WVD_2024",
-    "title": "VE_E_WVD",
-    "description": "Weiterentwicklung Verdis-Desktop 2024",
-    "tags": ["VerDIS"],
-    "budget": 12,
-    "github": "https://github.com/cismet/wupp/milestone/141"
   },
 
   {
