@@ -206,6 +206,10 @@ export default function Component() {
       border: "border-teal-600",
       bg: "bg-teal-600",
     },
+    "angek. Folgeauftrag": {
+      border: "border-teal-600",
+      bg: "bg-teal-600",
+    },
     default: {
       border: "border-gray-600",
       bg: "bg-gray-600",
