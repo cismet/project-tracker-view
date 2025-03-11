@@ -33,14 +33,7 @@
     "github": "https://github.com/cismet/wupp/milestone/146",
     "budget": 25
   },
-  {
-    "id": "10_TM_B_HGK-1",
-    "title": "TM_B_HGK-1",
-    "description": "3D-Weiterentwicklung der Hochwassergefahrenkarte",
-    "tags": ["TM"],
-    "github": "https://github.com/cismet/wupp/milestone/145",
-    "budget": 30
-  },
+
   {
     "id": "10_DZ_B_QTZ2-TopicMaps2Zwilling",
     "title": "DZ_B_QTZ2",
@@ -80,14 +73,6 @@
     "tags": ["WuNDa"],
     "budget": 30,
     "github": "https://github.com/cismet/wupp/milestone/144"
-  },
-  {
-    "id": "10_TM_B_BDV-Anpassungen-BPlan-DV",
-    "title": "TM_B_BDV",
-    "description": "Anpassungen BPlan Dokumentenviewer",
-    "tags": ["TopicMaps"],
-    "budget": 10,
-    "github": "https://github.com/cismet/wupp/milestone/148"
   },
   {
     "id": "70_DZ_B_3DI-2-3D-Visualisierung-Fachdaten",
