@@ -33,15 +33,6 @@
     "github": "https://github.com/cismet/wupp/milestone/146",
     "budget": 25
   },
-
-  {
-    "id": "10_DZ_B_QTZ2-TopicMaps2Zwilling",
-    "title": "DZ_B_QTZ2",
-    "description": "TopicMaps2Zwilling",
-    "tags": ["DZ"],
-    "budget": 75,
-    "github": "https://github.com/cismet/wupp/milestone/138"
-  },
   {
     "id": "10_TM_B_OLB_Luftbildschraegaufnahmen",
     "title": "TM_B_OLB",
@@ -90,7 +81,14 @@
     "budget": 0,
     "github": "https://github.com/cismet/wupp/milestone/147"
   },
-
+  {
+    "id": "70_DZ_B_VTI-1_MapLibre",
+    "title": "DZ_B_VTI-1",
+    "description": "MapLibre",
+    "tags": ["DZ"],
+    "budget": 0,
+    "github": "https://github.com/cismet/wupp/milestone/152"
+  },
   {
     "id": "60_ALWIS Kontingent",
     "title": "ALWIS Kontingent",
