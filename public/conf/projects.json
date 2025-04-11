@@ -90,6 +90,14 @@
     "github": "https://github.com/cismet/wupp/milestone/152"
   },
   {
+    "id": "70_TM_B_QTZ-3-TopicMaps2Zwilling",
+    "title": "TM_B_QTZ3",
+    "description": "TopicMaps2Zwilling",
+    "tags": ["DZ"],
+    "budget": 0,
+    "github": "https://github.com/cismet/wupp/milestone/151"
+  },
+  {
     "id": "60_ALWIS Kontingent",
     "title": "ALWIS Kontingent",
     "description": "Wartungskontingent",
