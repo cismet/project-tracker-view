@@ -16,14 +16,6 @@
     "budget": 7.5,
     "github": "https://github.com/cismet/wupp/milestone/133"
   },
-  {
-    "id": "10_DZ_B_VTI_VectorTiles_und_Maplibre",
-    "title": "DZ_B_VTI",
-    "description": "Beratung zur Integration von Vector Tiles und MapLibre",
-    "tags": ["DZ"],
-    "budget": 50,
-    "github": "https://github.com/cismet/wupp/milestone/132"
-  },
 
   {
     "id": "10_TM_B_GTM_Wohnlagenkarte",
@@ -74,11 +66,11 @@
     "github": "https://github.com/cismet/wupp/milestone/150"
   },
   {
-    "id": "70_DZ_E_GA1_GenApp_Stufe1",
+    "id": "10_DZ_E_GA1_GenApp_Stufe1",
     "title": "DZ_E_GA1",
     "description": "GenApp_Stufe1",
-    "tags": ["TopicMaps", "angek. Folgeauftrag"],
-    "budget": 0,
+    "tags": ["DZ"],
+    "budget": 75,
     "github": "https://github.com/cismet/wupp/milestone/147"
   },
   {
