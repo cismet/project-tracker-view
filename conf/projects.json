@@ -25,22 +25,7 @@
     "github": "https://github.com/cismet/wupp/milestone/146",
     "budget": 25
   },
-  {
-    "id": "10_TM_B_OLB_Luftbildschraegaufnahmen",
-    "title": "TM_B_OLB",
-    "description": "OpenData-Selbstentnahmeplattform für Luftbildschrägaufnahmen (Analyse, Beratung und Import)",
-    "tags": ["TopicMaps"],
-    "budget": 10,
-    "github": "https://github.com/cismet/wupp/milestone/136"
-  },
-  {
-    "id": "10_TM_E_OLB_Luftbildschraegaufnahmen",
-    "title": "TM_E_OLB",
-    "description": "OpenData-Selbstentnahmeplattform für Luftbildschrägaufnahmen (Anwendungsentwicklung)",
-    "tags": ["TopicMaps"],
-    "budget": 30,
-    "github": "https://github.com/cismet/wupp/milestone/137"
-  },
+
   {
     "id": "10_TM_E_VHK_Vorhabenkarte",
     "title": "TM_E_VHK",
@@ -49,14 +34,7 @@
     "budget": 24,
     "github": "https://github.com/cismet/wupp/milestone/118"
   },
-  {
-    "id": "10_WU_E_KWB-3",
-    "title": "WU_E_KWB-3",
-    "description": "Async Actions / Decentralised Geoms",
-    "tags": ["WuNDa"],
-    "budget": 30,
-    "github": "https://github.com/cismet/wupp/milestone/144"
-  },
+
   {
     "id": "70_DZ_B_3DI-2-3D-Visualisierung-Fachdaten",
     "title": "DZ_B_3DI-2",
