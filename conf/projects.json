@@ -9,15 +9,6 @@
   },
 
   {
-    "id": "10_WU_B_EAK_Altlasten_Bodenschutz_2407",
-    "title": "Erweiterungen Altlastenkataster",
-    "description": "WU_B_EAK",
-    "tags": ["WuNDa"],
-    "budget": 7.5,
-    "github": "https://github.com/cismet/wupp/milestone/133"
-  },
-
-  {
     "id": "10_TM_B_GTM_Wohnlagenkarte",
     "title": "TM_B_GTM",
     "description": "Generic TopicMap in carma am Beispiel der Wohnlagenkarte",
@@ -52,8 +43,8 @@
     "github": "https://github.com/cismet/wupp/milestone/147"
   },
   {
-    "id": "70_DZ_B_VTI-1_MapLibre",
-    "title": "DZ_B_VTI-1",
+    "id": "70_TM_B_VTI-1_MapLibre",
+    "title": "TM_B_VTI-1",
     "description": "MapLibre",
     "tags": ["DZ", "angek. Folgeauftrag"],
     "budget": 0,
