@@ -7,16 +7,6 @@
     "budget": 40,
     "github": "https://github.com/cismet/wupp/milestone/140"
   },
-
-  {
-    "id": "10_TM_B_GTM_Wohnlagenkarte",
-    "title": "TM_B_GTM",
-    "description": "Generic TopicMap in carma am Beispiel der Wohnlagenkarte",
-    "tags": ["TM"],
-    "github": "https://github.com/cismet/wupp/milestone/146",
-    "budget": 25
-  },
-
   {
     "id": "10_TM_E_VHK_Vorhabenkarte",
     "title": "TM_E_VHK",
@@ -35,19 +25,11 @@
     "github": "https://github.com/cismet/wupp/milestone/150"
   },
   {
-    "id": "10_DZ_E_GA1_GenApp_Stufe1",
-    "title": "DZ_E_GA1",
-    "description": "GenApp_Stufe1",
-    "tags": ["DZ"],
-    "budget": 75,
-    "github": "https://github.com/cismet/wupp/milestone/147"
-  },
-  {
-    "id": "70_TM_B_VTI-1_MapLibre",
+    "id": "10_TM_B_VTI-1_MapLibre",
     "title": "TM_B_VTI-1",
     "description": "MapLibre",
-    "tags": ["DZ", "angek. Folgeauftrag"],
-    "budget": 0,
+    "tags": ["DZ", "Kontingent"],
+    "budget": 40,
     "github": "https://github.com/cismet/wupp/milestone/152"
   },
   {
