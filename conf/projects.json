@@ -1,13 +1,5 @@
 [
   {
-    "id": "10_WU_E_UAB-7-ALKIS_Upgrade_7",
-    "title": "ALKIS Umstellung",
-    "description": "der Benutzungskomponente",
-    "tags": ["WuNDa", "vor RV"],
-    "budget": 40,
-    "github": "https://github.com/cismet/wupp/milestone/140"
-  },
-  {
     "id": "10_TM_E_VHK_Vorhabenkarte",
     "title": "TM_E_VHK",
     "description": "Vorhabenkarte",
@@ -47,6 +39,30 @@
     "tags": ["TopicMaps"],
     "budget": 35,
     "github": "https://github.com/cismet/wupp/milestone/153"
+  },
+  {
+    "id": "70_WU_E_UAB-7-1_ALKIS-Vektorlayer",
+    "title": "TM_B_OLB1",
+    "description": "Vervollständigung der ALKIS-Vektorlayer im WuNDa-Umfeld",
+    "tags": ["DZ", "angek. Folgeauftrag"],
+    "budget": 0,
+    "github": "https://github.com/cismet/wupp/milestone/155"
+  },
+  {
+    "id": "70_DZ_E_GA1-1_Laufende_Konsolidierung",
+    "title": "DZ_E_GA1-1",
+    "description": "Laufende Konsolidierung Generische Applikation für den DigiTal Zwilling (Stufe 1)",
+    "tags": ["DZ", "angek. Folgeauftrag"],
+    "budget": 0,
+    "github": "https://github.com/cismet/wupp/milestone/154"
+  },
+  {
+    "id": "70_BelIS_Desktop",
+    "title": "BelIS_Desktop",
+    "description": "BE_E_BDT: BelIS Desktop (Anwendungsprogrammierung)",
+    "tags": ["BelIS", "angek. Folgeauftrag"],
+    "budget": 0,
+    "github": "https://github.com/cismet/wupp/milestone/156"
   },
   {
     "id": "60_ALWIS Kontingent",
