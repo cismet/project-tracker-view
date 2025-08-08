@@ -197,5 +197,13 @@
     "tags": ["DZ"],
     "budget": 75,
     "github": "https://github.com/cismet/wupp/milestone/147"
-  }
+  },
+  {
+    "id": "10_WU_E_UAB-7-ALKIS_Upgrade_7",
+    "title": "ALKIS Umstellung",
+    "description": "der Benutzungskomponente",
+    "tags": ["WuNDa", "vor RV"],
+    "budget": 40,
+    "github": "https://github.com/cismet/wupp/milestone/140"
+  }  
 ]
