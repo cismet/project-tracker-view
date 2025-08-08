@@ -26,7 +26,7 @@
   },
   {
     "id": "70_TM_B_QTZ-3-TopicMaps2Zwilling",
-    "title": "TM_B_QTZ3",
+    "title": "TM_B_QTZ-3",
     "description": "TopicMaps2Zwilling",
     "tags": ["TopicMaps", "angek. Folgeauftrag"],
     "budget": 0,
@@ -34,7 +34,7 @@
   },
   {
     "id": "10_TM_B_OLB1_Luftbildschraegaufnahmen",
-    "title": "TM_B_OLB1",
+    "title": "TM_B_OLB-1",
     "description": "Selbstentnahmeplattform für Luftbildschrägaufnahmen",
     "tags": ["TopicMaps"],
     "budget": 35,
@@ -42,9 +42,9 @@
   },
   {
     "id": "70_WU_E_UAB-7-1_ALKIS-Vektorlayer",
-    "title": "TM_B_OLB1",
+    "title": "WU_E_UAB-7-1",
     "description": "Vervollständigung der ALKIS-Vektorlayer im WuNDa-Umfeld",
-    "tags": ["DZ", "angek. Folgeauftrag"],
+    "tags": ["WuNDa", "angek. Folgeauftrag"],
     "budget": 0,
     "github": "https://github.com/cismet/wupp/milestone/155"
   },
@@ -58,11 +58,19 @@
   },
   {
     "id": "70_BelIS_Desktop",
-    "title": "BelIS_Desktop",
-    "description": "BE_E_BDT: BelIS Desktop (Anwendungsprogrammierung)",
+    "title": "BE_E_BDT",
+    "description": "BelIS Desktop (Anwendungsprogrammierung)",
     "tags": ["BelIS", "angek. Folgeauftrag"],
     "budget": 0,
     "github": "https://github.com/cismet/wupp/milestone/156"
+  },
+  {
+    "id": "70_BE_B_BDT-BelIS_Desktop",
+    "title": "BE_B_BDT",
+    "description": "BelIS Desktop (Beratung und fachliche Optimierung)",
+    "tags": ["BelIS", "angek. Folgeauftrag"],
+    "budget": 0,
+    "github": "https://github.com/cismet/wupp/milestone/157"
   },
   {
     "id": "60_ALWIS Kontingent",
