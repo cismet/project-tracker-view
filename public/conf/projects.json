@@ -57,6 +57,14 @@
     "github": "https://github.com/cismet/wupp/milestone/154"
   },
   {
+    "id": "10_LA_E_WLD_LagIS-Desktop_2025",
+    "title": "LA_E_WLD",
+    "description": "LagIS-Desktop 2025",
+    "tags": ["LA"],
+    "budget": 30,
+    "github": "https://github.com/cismet/wupp/milestone/158"
+  },
+  {
     "id": "70_BelIS_Desktop",
     "title": "BE_E_BDT",
     "description": "BelIS Desktop (Anwendungsprogrammierung)",
