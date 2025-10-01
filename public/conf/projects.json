@@ -65,6 +65,14 @@
     "github": "https://github.com/cismet/wupp/milestone/158"
   },
   {
+    "id": "10_DZ_E_MAB_Baumpflege_Linden",
+    "title": "DZ_E_MAB",
+    "description": "Baumpflege Linden",
+    "tags": ["DZ"],
+    "budget": 20,
+    "github": "https://github.com/cismet/wupp/milestone/159"
+  },
+  {
     "id": "70_BelIS_Desktop",
     "title": "BE_E_BDT",
     "description": "BelIS Desktop (Anwendungsprogrammierung)",
