@@ -25,6 +25,15 @@
     "github": "https://github.com/cismet/wupp/milestone/152"
   },
   {
+    "id": "70_DZ_E_VLB_Bodenfeuchtesensoren",
+    "title": "DZ_E_VLB",
+    "description": "Vektorlayer Bodenfeuchtesensoren",
+    "tags": ["DZ"],
+    "budget": 0,
+    "budgetPlanned": 10,
+    "github": "https://github.com/cismet/wupp/milestone/160"
+  },
+  {
     "id": "70_TM_B_VTI-2_MapLibre",
     "title": "TM_B_VTI-2",
     "description": "MapLibre",
