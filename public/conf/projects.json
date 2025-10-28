@@ -9,20 +9,29 @@
   },
 
   {
-    "id": "70_DZ_B_3DI-2-3D-Visualisierung-Fachdaten",
-    "title": "DZ_B_3DI-2",
+    "id": "10_DZ_E_3DI-2-3D-Visualisierung-Fachdaten",
+    "title": "DZ_E_3DI-2",
     "description": "3D-Visualisierung-Fachdaten",
     "tags": ["DZ", "angek. Folgeauftrag"],
-    "budget": 0,
+    "budget": 60,
     "github": "https://github.com/cismet/wupp/milestone/150"
   },
   {
     "id": "10_TM_B_VTI-1_MapLibre",
     "title": "TM_B_VTI-1",
     "description": "MapLibre",
-    "tags": ["TopicMaps", "Kontingent"],
+    "tags": ["TopicMaps"],
     "budget": 40,
     "github": "https://github.com/cismet/wupp/milestone/152"
+  },
+  {
+    "id": "70_TM_B_VTI-2_MapLibre",
+    "title": "TM_B_VTI-2",
+    "description": "MapLibre",
+    "tags": ["TopicMaps", "angek. Folgeauftrag"],
+    "budget": 0,
+    "budgetPlanned": 15,
+    "github": "https://github.com/cismet/wupp/milestone/162"
   },
   {
     "id": "10_TM_B_QTZ-3-TopicMaps2Zwilling",
@@ -71,6 +80,16 @@
     "tags": ["DZ"],
     "budget": 20,
     "github": "https://github.com/cismet/wupp/milestone/159"
+  },
+
+  {
+    "id": "70_WU_B_EAK_1_Altlasten",
+    "title": "Einsatzunterstützung Altlastenkataster",
+    "description": "WU_B_EAK_1",
+    "tags": ["WuNDa", "angek. Folgeauftrag"],
+    "budget": 0,
+    "budgetPlanned": 5,
+    "github": "https://github.com/cismet/wupp/milestone/161"
   },
   {
     "id": "70_BelIS_Desktop",
