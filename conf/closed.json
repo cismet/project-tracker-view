@@ -205,5 +205,13 @@
     "tags": ["WuNDa", "vor RV"],
     "budget": 40,
     "github": "https://github.com/cismet/wupp/milestone/140"
-  }  
+  },
+  {
+    "id": "10_TM_B_VTI-1_MapLibre",
+    "title": "TM_B_VTI-1",
+    "description": "MapLibre",
+    "tags": ["TopicMaps"],
+    "budget": 40,
+    "github": "https://github.com/cismet/wupp/milestone/152"
+  }
 ]

@@ -17,29 +17,19 @@
     "github": "https://github.com/cismet/wupp/milestone/150"
   },
   {
-    "id": "10_TM_B_VTI-1_MapLibre",
-    "title": "TM_B_VTI-1",
-    "description": "MapLibre",
-    "tags": ["TopicMaps"],
-    "budget": 40,
-    "github": "https://github.com/cismet/wupp/milestone/152"
-  },
-  {
-    "id": "70_DZ_E_VLB_Bodenfeuchtesensoren",
+    "id": "10_DZ_E_VLB_Bodenfeuchtesensoren",
     "title": "DZ_E_VLB",
     "description": "Vektorlayer Bodenfeuchtesensoren",
     "tags": ["DZ"],
-    "budget": 0,
-    "budgetPlanned": 10,
+    "budget": 10,
     "github": "https://github.com/cismet/wupp/milestone/160"
   },
   {
-    "id": "70_TM_B_VTI-2_MapLibre",
+    "id": "10_TM_B_VTI-2_MapLibre",
     "title": "TM_B_VTI-2",
     "description": "MapLibre",
     "tags": ["TopicMaps", "angek. Folgeauftrag"],
-    "budget": 0,
-    "budgetPlanned": 15,
+    "budget": 15,
     "github": "https://github.com/cismet/wupp/milestone/162"
   },
   {
@@ -74,6 +64,15 @@
     "budget": 0,
     "github": "https://github.com/cismet/wupp/milestone/154"
   },
+  {
+    "id": "70_DZ_E_GA1-2_Laufende_Konsolidierung",
+    "title": "DZ_E_GA1-2",
+    "description": "Laufende Konsolidierung Generische Applikation für den DigiTal Zwilling (Stufe 1, 2. Folgeauftrag)",
+    "tags": ["DZ", "angek. Folgeauftrag"],
+    "budget": 0,
+    "github": "https://github.com/cismet/wupp/milestone/163"
+  },
+
   {
     "id": "10_LA_E_WLD_LagIS-Desktop_2025",
     "title": "LA_E_WLD",
