@@ -100,7 +100,7 @@
     "github": "https://github.com/cismet/wupp/milestone/161"
   },
   {
-    "id": "70_BelIS_Desktop",
+    "id": "70_BE_E_BDT_BelIS_Desktop_Entwicklung",
     "title": "BE_E_BDT",
     "description": "BelIS Desktop (Anwendungsprogrammierung)",
     "tags": ["BelIS", "angek. Folgeauftrag"],
@@ -109,7 +109,7 @@
   },
 
   {
-    "id": "70_BE_B_BDT-BelIS_Desktop",
+    "id": "70_BE_B_BDT_BelIS_Desktop_Beratung",
     "title": "BE_B_BDT",
     "description": "BelIS Desktop (Beratung und fachliche Optimierung)",
     "tags": ["BelIS", "angek. Folgeauftrag"],
