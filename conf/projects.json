@@ -12,7 +12,7 @@
     "id": "10_DZ_E_3DI-2-3D-Visualisierung-Fachdaten",
     "title": "DZ_E_3DI-2",
     "description": "3D-Visualisierung-Fachdaten",
-    "tags": ["DZ", "angek. Folgeauftrag"],
+    "tags": ["DZ"],
     "budget": 60,
     "github": "https://github.com/cismet/wupp/milestone/150"
   },
@@ -52,7 +52,7 @@
     "id": "10_WU_E_UAB-7-1_ALKIS-Vektorlayer",
     "title": "WU_E_UAB-7-1",
     "description": "Vervollständigung der ALKIS-Vektorlayer im WuNDa-Umfeld",
-    "tags": ["WuNDa", "angek. Folgeauftrag"],
+    "tags": ["WuNDa"],
     "budget": 30,
     "github": "https://github.com/cismet/wupp/milestone/155"
   },
@@ -60,7 +60,7 @@
     "id": "10_DZ_E_GA1-1_Laufende_Konsolidierung",
     "title": "DZ_E_GA1-1",
     "description": "Laufende Konsolidierung Generische Applikation für den DigiTal Zwilling (Stufe 1)",
-    "tags": ["DZ", "angek. Folgeauftrag"],
+    "tags": ["DZ"],
     "budget": 58.5,
     "github": "https://github.com/cismet/wupp/milestone/154"
   },
@@ -91,12 +91,11 @@
   },
 
   {
-    "id": "70_WU_B_EAK_1_Altlasten",
+    "id": "10_WU_B_EAK_1_Altlasten",
     "title": "Einsatzunterstützung Altlastenkataster",
     "description": "WU_B_EAK_1",
-    "tags": ["WuNDa", "angek. Folgeauftrag"],
-    "budget": 0,
-    "budgetPlanned": 5,
+    "tags": ["WuNDa"],
+    "budget": 5,
     "github": "https://github.com/cismet/wupp/milestone/161"
   },
   {
