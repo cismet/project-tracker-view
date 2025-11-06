@@ -1,14 +1,5 @@
 [
   {
-    "id": "10_TM_E_VHK_Vorhabenkarte",
-    "title": "TM_E_VHK",
-    "description": "Vorhabenkarte",
-    "tags": ["TopicMaps"],
-    "budget": 24,
-    "github": "https://github.com/cismet/wupp/milestone/118"
-  },
-
-  {
     "id": "10_DZ_E_3DI-2-3D-Visualisierung-Fachdaten",
     "title": "DZ_E_3DI-2",
     "description": "3D-Visualisierung-Fachdaten",
@@ -71,15 +62,6 @@
     "tags": ["DZ", "angek. Folgeauftrag"],
     "budget": 0,
     "github": "https://github.com/cismet/wupp/milestone/163"
-  },
-
-  {
-    "id": "10_LA_E_WLD_LagIS-Desktop_2025",
-    "title": "LA_E_WLD",
-    "description": "LagIS-Desktop 2025",
-    "tags": ["LA"],
-    "budget": 30,
-    "github": "https://github.com/cismet/wupp/milestone/158"
   },
   {
     "id": "10_DZ_E_MAB_Baumpflege_Linden",

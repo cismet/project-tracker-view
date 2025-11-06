@@ -213,5 +213,21 @@
     "tags": ["TopicMaps"],
     "budget": 40,
     "github": "https://github.com/cismet/wupp/milestone/152"
+  },
+  {
+    "id": "10_TM_E_VHK_Vorhabenkarte",
+    "title": "TM_E_VHK",
+    "description": "Vorhabenkarte",
+    "tags": ["TopicMaps"],
+    "budget": 24,
+    "github": "https://github.com/cismet/wupp/milestone/118"
+  },
+  {
+    "id": "10_LA_E_WLD_LagIS-Desktop_2025",
+    "title": "LA_E_WLD",
+    "description": "LagIS-Desktop 2025",
+    "tags": ["LA"],
+    "budget": 30,
+    "github": "https://github.com/cismet/wupp/milestone/158"
   }
 ]
