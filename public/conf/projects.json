@@ -56,11 +56,11 @@
     "github": "https://github.com/cismet/wupp/milestone/154"
   },
   {
-    "id": "70_DZ_E_GA1-2_Laufende_Konsolidierung",
+    "id": "10_DZ_E_GA1-2_Laufende_Konsolidierung",
     "title": "DZ_E_GA1-2",
     "description": "Laufende Konsolidierung Generische Applikation für den DigiTal Zwilling (Stufe 1, 2. Folgeauftrag)",
-    "tags": ["DZ", "angek. Folgeauftrag"],
-    "budget": 0,
+    "tags": ["DZ"],
+    "budget": 105,
     "github": "https://github.com/cismet/wupp/milestone/163"
   },
   {
