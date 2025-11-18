@@ -73,6 +73,14 @@
   },
 
   {
+    "id": "10_TM_E_WCK_WC_Karte",
+    "title": "TopicMap WC-Karte",
+    "description": "TM_E_WCK",
+    "tags": ["TopicMaps"],
+    "budget": 8,
+    "github": "https://github.com/cismet/wupp/milestone/164"
+  },
+  {
     "id": "10_WU_B_EAK_1_Altlasten",
     "title": "Einsatzunterstützung Altlastenkataster",
     "description": "WU_B_EAK_1",
