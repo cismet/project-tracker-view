@@ -229,5 +229,21 @@
     "tags": ["LA"],
     "budget": 30,
     "github": "https://github.com/cismet/wupp/milestone/158"
+  },
+  {
+    "id": "10_TM_B_QTZ-3-TopicMaps2Zwilling",
+    "title": "TM_B_QTZ-3",
+    "description": "TopicMaps2Zwilling",
+    "tags": ["TopicMaps"],
+    "budget": 60,
+    "github": "https://github.com/cismet/wupp/milestone/151"
+  },
+  {
+    "id": "10_DZ_E_GA1-1_Laufende_Konsolidierung",
+    "title": "DZ_E_GA1-1",
+    "description": "Laufende Konsolidierung Generische Applikation für den DigiTal Zwilling (Stufe 1)",
+    "tags": ["DZ"],
+    "budget": 58.5,
+    "github": "https://github.com/cismet/wupp/milestone/154"
   }
 ]
