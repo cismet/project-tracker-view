@@ -82,11 +82,11 @@
   },
 
   {
-    "id": "70_BE_B_BDT_BelIS_Desktop_Beratung",
+    "id": "10_BE_B_BDT_BelIS_Desktop_Beratung",
     "title": "BE_B_BDT",
     "description": "BelIS Desktop (Beratung und fachliche Optimierung)",
     "tags": ["BelIS", "angek. Folgeauftrag"],
-    "budget": 0,
+    "budget": 25,
     "github": "https://github.com/cismet/wupp/milestone/157"
   },
   {
