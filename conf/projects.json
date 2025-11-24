@@ -24,14 +24,6 @@
     "github": "https://github.com/cismet/wupp/milestone/162"
   },
   {
-    "id": "10_TM_B_QTZ-3-TopicMaps2Zwilling",
-    "title": "TM_B_QTZ-3",
-    "description": "TopicMaps2Zwilling",
-    "tags": ["TopicMaps"],
-    "budget": 60,
-    "github": "https://github.com/cismet/wupp/milestone/151"
-  },
-  {
     "id": "10_TM_B_OLB1_Luftbildschraegaufnahmen",
     "title": "TM_B_OLB-1",
     "description": "Selbstentnahmeplattform für Luftbildschrägaufnahmen",
@@ -46,14 +38,6 @@
     "tags": ["WuNDa"],
     "budget": 30,
     "github": "https://github.com/cismet/wupp/milestone/155"
-  },
-  {
-    "id": "10_DZ_E_GA1-1_Laufende_Konsolidierung",
-    "title": "DZ_E_GA1-1",
-    "description": "Laufende Konsolidierung Generische Applikation für den DigiTal Zwilling (Stufe 1)",
-    "tags": ["DZ"],
-    "budget": 58.5,
-    "github": "https://github.com/cismet/wupp/milestone/154"
   },
   {
     "id": "10_DZ_E_GA1-2_Laufende_Konsolidierung",
