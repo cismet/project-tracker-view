@@ -15,7 +15,14 @@
     "budget": 10,
     "github": "https://github.com/cismet/wupp/milestone/160"
   },
-
+  {
+    "id": "10_WU_B_DBV_Digitales_Baulastenverzeichnis",
+    "title": "WU_B_DBV",
+    "description": "Digitales Baulastenverzeichnis",
+    "tags": ["WuNDa"],
+    "budget": 20.5,
+    "github": "https://github.com/cismet/wupp/milestone/165"
+  },
   {
     "id": "10_TM_B_OLB1_Luftbildschraegaufnahmen",
     "title": "TM_B_OLB-1",
