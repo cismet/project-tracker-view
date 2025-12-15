@@ -245,5 +245,37 @@
     "tags": ["DZ"],
     "budget": 58.5,
     "github": "https://github.com/cismet/wupp/milestone/154"
+  },
+  {
+    "id": "10_TM_B_VTI-2_MapLibre",
+    "title": "TM_B_VTI-2",
+    "description": "MapLibre",
+    "tags": ["TopicMaps"],
+    "budget": 15,
+    "github": "https://github.com/cismet/wupp/milestone/162"
+  },
+  {
+    "id": "10_WU_E_UAB-7-1_ALKIS-Vektorlayer",
+    "title": "WU_E_UAB-7-1",
+    "description": "Vervollständigung der ALKIS-Vektorlayer im WuNDa-Umfeld",
+    "tags": ["WuNDa"],
+    "budget": 30,
+    "github": "https://github.com/cismet/wupp/milestone/155"
+  },
+  {
+    "id": "10_TM_E_WCK_WC_Karte",
+    "title": "TopicMap WC-Karte",
+    "description": "TM_E_WCK",
+    "tags": ["TopicMaps"],
+    "budget": 8,
+    "github": "https://github.com/cismet/wupp/milestone/164"
+  },
+  {
+    "id": "10_WU_B_EAK_1_Altlasten",
+    "title": "Einsatzunterstützung Altlastenkataster",
+    "description": "WU_B_EAK_1",
+    "tags": ["WuNDa"],
+    "budget": 5,
+    "github": "https://github.com/cismet/wupp/milestone/161"
   }
 ]
