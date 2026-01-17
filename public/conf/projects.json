@@ -62,7 +62,7 @@
     "title": "DZ_E_GA1-3",
     "description": "Laufende Konsolidierung Generische Applikation für den DigiTal Zwilling (Stufe 1, dritter Folgeauftrag)",
     "tags": ["DZ", "angek. Folgeauftrag"],
-    "_budget": 50,
+    "budget": 50,
     "github": "https://github.com/cismet/wupp/milestone/166"
   },
   {
@@ -70,7 +70,7 @@
     "title": "DZ_B_VTI-3",
     "description": "Beratung zur Integration von Vector Tiles und MapLibre (3. Folgeauftrag)",
     "tags": ["DZ", "angek. Folgeauftrag"],
-    "_budget": 30,
+    "budget": 30,
     "github": "https://github.com/cismet/wupp/milestone/167"
   },
   {

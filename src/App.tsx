@@ -134,7 +134,8 @@ export default function Component() {
           sum + entry.workinghours,
         0
       );
-      const projectHours = project.budget * 8;
+      const isAnnounced = project.tags.includes("angek. Folgeauftrag");
+      const projectHours = isAnnounced ? 0 : project.budget * 8;
       const done = balance + projectHours;
       const progress = (done / projectHours) * 100;
       if (projectHours === 0) {
@@ -246,7 +247,7 @@ export default function Component() {
                   className={`${config.border} ${
                     filters.includes(tag)
                       ? `${config.bg} text-white`
-                      : "white dark:bg-gray-950 text-gray-500 dark:text-gray-400"
+                      : "white dark:bg-gray-950 text-gray-500 dark:text-gray-500"
                   }`}
                   onClick={() => toggleFilter(tag)}
                 >
@@ -333,8 +334,8 @@ export default function Component() {
                     </button>
                   )}
                   <CardContent className="flex flex-col items-center justify-center gap-4 p-6">
-                    <div className="text-4xl font-bold">{project.budget}</div>
-                    <div className="text-lg font-medium">{project.title}</div>
+                    <div className={`text-4xl font-bold ${project.tags.includes("angek. Folgeauftrag") ? "text-gray-500" : ""}`}>{project.budget}</div>
+                    <div className={`text-lg font-medium ${project.id.startsWith("70_") ? "text-gray-500" : ""}`}>{project.title}</div>
                     <div className="relative w-full">
                       <Progress
                         value={
@@ -361,7 +362,7 @@ export default function Component() {
                     </div>
                     {project?.progress !== 0 &&
                       project?.progress !== undefined && (
-                        <div className="text-gray-500 dark:text-gray-400">
+                        <div className="text-gray-500 dark:text-gray-500">
                           (ca.{" "}
                           {Math.round(
                             ((100 - project.progress) / 100) * project.budget
@@ -369,8 +370,15 @@ export default function Component() {
                           MT verbleibend)
                         </div>
                       )}
-                    {project.description}
-                    <div className="text-gray-500 dark:text-gray-400"></div>
+                    {project.progress === undefined &&
+                      project.balance !== undefined &&
+                      !isNaN(project.balance) && (
+                        <div className="text-gray-500 dark:text-gray-500">
+                          (ca. {Math.round(project.balance / 8)} MT)
+                        </div>
+                      )}
+                    <span className={project.id.startsWith("70_") ? "text-gray-500" : ""}>{project.description}</span>
+                    <div className="text-gray-500 dark:text-gray-500"></div>
                     <div className="flex gap-2 mt-4">
                       {project.tags.map((tag) => {
                         const config = colorConfig[tag] || colorConfig.default;
@@ -383,7 +391,7 @@ export default function Component() {
                             className={`${config.border} ${
                               filters.includes(tag)
                                 ? `${config.bg} text-white`
-                                : "white dark:bg-gray-950 text-gray-500 dark:text-gray-400"
+                                : "white dark:bg-gray-950 text-gray-500 dark:text-gray-500"
                             }`}
                           >
                             {tag}

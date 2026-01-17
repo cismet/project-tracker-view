@@ -18,9 +18,9 @@ Add a new project to `projects.json`.
 4. If the user provided a **title** but no id, ask for the exact id (must be exact, otherwise tracking won't work)
 
 5. For **70_ projects** (announced/pre-contract):
-   - Do NOT add `budget` field
-   - If a budget is found in the milestone description, add it as `_budget` (underscore prefix)
+   - Add `budget` with the value from milestone description (or ask user if not found)
    - Tags: main tag based on id prefix + `"angek. Folgeauftrag"` (e.g., `["WuNDa", "angek. Folgeauftrag"]`)
+   - Note: The `"angek. Folgeauftrag"` tag makes the budget display grey and shows hours instead of percentage
 
 6. For **10_ projects** (active contracts):
    - Budget is required - if not found in milestone description, ask the user
@@ -43,13 +43,13 @@ Add a new project to `projects.json`.
      "budget": 20,
      "github": "https://github.com/cismet/wupp/milestone/XXX"
    }
-   // For 70_ projects (with optional _budget if found in milestone):
+   // For 70_ projects (budget shown grey, hours instead of %):
    {
      "id": "70_...",
      "title": "SHORT_TITLE",
      "description": "Description from milestone",
      "tags": ["...", "angek. Folgeauftrag"],
-     "_budget": 50,
+     "budget": 50,
      "github": "https://github.com/cismet/wupp/milestone/XXX"
    }
    ```
@@ -61,3 +61,5 @@ Add a new project to `projects.json`.
 9. Write the updated JSON with 2-space indentation
 
 10. Confirm the project was added and show the new entry
+
+11. Start the dev server (`npm run dev`) in the background so the user can check the content before pushing
