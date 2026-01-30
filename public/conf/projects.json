@@ -8,14 +8,6 @@
     "github": "https://github.com/cismet/wupp/milestone/150"
   },
   {
-    "id": "10_DZ_E_VLB_Bodenfeuchtesensoren",
-    "title": "DZ_E_VLB",
-    "description": "Vektorlayer Bodenfeuchtesensoren",
-    "tags": ["DZ"],
-    "budget": 10,
-    "github": "https://github.com/cismet/wupp/milestone/160"
-  },
-  {
     "id": "10_WU_B_DBV_Digitales_Baulastenverzeichnis",
     "title": "WU_B_DBV",
     "description": "Digitales Baulastenverzeichnis",
@@ -24,23 +16,6 @@
     "github": "https://github.com/cismet/wupp/milestone/165"
   },
   {
-    "id": "10_DZ_E_GA1-2_Laufende_Konsolidierung",
-    "title": "DZ_E_GA1-2",
-    "description": "Laufende Konsolidierung Generische Applikation für den DigiTal Zwilling (Stufe 1, 2. Folgeauftrag)",
-    "tags": ["DZ"],
-    "budget": 105,
-    "github": "https://github.com/cismet/wupp/milestone/163"
-  },
-  {
-    "id": "10_DZ_E_MAB_Baumpflege_Linden",
-    "title": "DZ_E_MAB",
-    "description": "Baumpflege Linden",
-    "tags": ["DZ"],
-    "budget": 20,
-    "github": "https://github.com/cismet/wupp/milestone/159"
-  },
-
-  {
     "id": "10_BE_E_BDT_BelIS_Desktop_Entwicklung",
     "title": "BE_E_BDT",
     "description": "BelIS Desktop (Anwendungsprogrammierung)",
@@ -48,7 +23,6 @@
     "budget": 45,
     "github": "https://github.com/cismet/wupp/milestone/156"
   },
-
   {
     "id": "10_BE_B_BDT_BelIS_Desktop_Beratung",
     "title": "BE_B_BDT",
