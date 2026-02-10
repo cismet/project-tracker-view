@@ -32,6 +32,14 @@
     "github": "https://github.com/cismet/wupp/milestone/157"
   },
   {
+    "id": "10_WU_B_KWB-4_Konsolidierung_WuNDa_Backend",
+    "title": "WU_B_KWB-4",
+    "description": "Konsolidierung WuNDa Backend (4. Folgeauftrag)",
+    "tags": ["WuNDa"],
+    "budget": 15.5,
+    "github": "https://github.com/cismet/wupp/milestone/169"
+  },
+  {
     "id": "70_DZ_E_GA1-3_Laufende_Konsolidierung",
     "title": "DZ_E_GA1-3",
     "description": "Laufende Konsolidierung Generische Applikation für den DigiTal Zwilling (Stufe 1, dritter Folgeauftrag)",
