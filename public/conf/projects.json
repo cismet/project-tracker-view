@@ -80,6 +80,14 @@
     "github": "https://github.com/cismet/wupp/milestone/173"
   },
   {
+    "id": "70_TM_B_QTZ-4_TopicMaps2Zwilling",
+    "title": "TM_B_QTZ-4",
+    "description": "Beratung zur Qualifizierung der TopicMaps zu Teilzwillings-Applikationen (4. Folgeprojekt)",
+    "tags": ["TopicMaps", "angek. Folgeauftrag"],
+    "budget": 15,
+    "github": "https://github.com/cismet/wupp/milestone/177"
+  },
+  {
     "id": "60_ALWIS Kontingent",
     "title": "ALWIS Kontingent",
     "description": "Wartungskontingent",
