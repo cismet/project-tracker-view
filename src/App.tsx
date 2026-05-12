@@ -194,6 +194,10 @@ export default function Component() {
       border: "border-indigo-600",
       bg: "bg-indigo-600",
     },
+    ES: {
+      border: "border-red-600",
+      bg: "bg-red-600",
+    },
     Kontingent: {
       border: "border-yellow-600",
       bg: "bg-indigo-600",

@@ -48,6 +48,38 @@
     "github": "https://github.com/cismet/wupp/milestone/167"
   },
   {
+    "id": "70_DZ_E_GA1-4_Laufende_Konsolidierung",
+    "title": "DZ_E_GA1-4",
+    "description": "Laufende Konsolidierung Generische Applikation für den DigiTal Zwilling (Stufe 1, 4. Folgeauftrag)",
+    "tags": ["DZ", "angek. Folgeauftrag"],
+    "budget": 30,
+    "github": "https://github.com/cismet/wupp/milestone/176"
+  },
+  {
+    "id": "70_DZ_E_VLB-1_Sensordatenintegration",
+    "title": "DZ_E_VLB-1",
+    "description": "Sensordatenintegration",
+    "tags": ["DZ", "angek. Folgeauftrag"],
+    "budget": 30,
+    "github": "https://github.com/cismet/wupp/milestone/175"
+  },
+  {
+    "id": "70_DZ_E_MAB-1_Haertung_des_TZ_Baumbewirtschaftung",
+    "title": "DZ_E_MAB-1",
+    "description": "Härtung des TZ Baumbewirtschaftung",
+    "tags": ["DZ", "angek. Folgeauftrag"],
+    "budget": 10,
+    "github": "https://github.com/cismet/wupp/milestone/174"
+  },
+  {
+    "id": "70_ES_B_EKLPS_Fachzwilling_kommunale_Planung",
+    "title": "ES_B_EKLPS",
+    "description": "Gleitender Einstieg in den Fachzwilling kommunale Planung",
+    "tags": ["ES", "angek. Folgeauftrag"],
+    "budget": 25,
+    "github": "https://github.com/cismet/wupp/milestone/173"
+  },
+  {
     "id": "60_ALWIS Kontingent",
     "title": "ALWIS Kontingent",
     "description": "Wartungskontingent",
