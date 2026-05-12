@@ -8,22 +8,6 @@
     "github": "https://github.com/cismet/wupp/milestone/165"
   },
   {
-    "id": "10_BE_E_BDT_BelIS_Desktop_Entwicklung",
-    "title": "BE_E_BDT",
-    "description": "BelIS Desktop (Anwendungsprogrammierung)",
-    "tags": ["BelIS"],
-    "budget": 45,
-    "github": "https://github.com/cismet/wupp/milestone/156"
-  },
-  {
-    "id": "10_BE_B_BDT_BelIS_Desktop_Beratung",
-    "title": "BE_B_BDT",
-    "description": "BelIS Desktop (Beratung und fachliche Optimierung)",
-    "tags": ["BelIS"],
-    "budget": 25,
-    "github": "https://github.com/cismet/wupp/milestone/157"
-  },
-  {
     "id": "10_WU_B_KWB-4_Konsolidierung_WuNDa_Backend",
     "title": "WU_B_KWB-4",
     "description": "Konsolidierung WuNDa Backend (4. Folgeauftrag)",
