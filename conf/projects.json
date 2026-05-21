@@ -24,6 +24,14 @@
     "github": "https://github.com/cismet/wupp/milestone/166"
   },
   {
+    "id": "10_DZ_E_MAB-1_Haertung_des_TZ_Baumbewirtschaftung",
+    "title": "DZ_E_MAB-1",
+    "description": "Härtung des TZ Baumbewirtschaftung",
+    "tags": ["DZ"],
+    "budget": 10,
+    "github": "https://github.com/cismet/wupp/milestone/174"
+  },
+  {
     "id": "70_DZ_B_VTI-3_VectorTiles_und_Maplibre",
     "title": "DZ_B_VTI-3",
     "description": "Beratung zur Integration von Vector Tiles und MapLibre (3. Folgeauftrag)",
@@ -48,14 +56,6 @@
     "github": "https://github.com/cismet/wupp/milestone/175"
   },
   {
-    "id": "70_DZ_E_MAB-1_Haertung_des_TZ_Baumbewirtschaftung",
-    "title": "DZ_E_MAB-1",
-    "description": "Härtung des TZ Baumbewirtschaftung",
-    "tags": ["DZ", "angek. Folgeauftrag"],
-    "budget": 10,
-    "github": "https://github.com/cismet/wupp/milestone/174"
-  },
-  {
     "id": "70_ES_B_EKLPS_Fachzwilling_kommunale_Planung",
     "title": "ES_B_EKLPS",
     "description": "Gleitender Einstieg in den Fachzwilling kommunale Planung",
@@ -70,6 +70,46 @@
     "tags": ["TopicMaps", "angek. Folgeauftrag"],
     "budget": 15,
     "github": "https://github.com/cismet/wupp/milestone/177"
+  },
+  {
+    "id": "70_BE_E_BDT-1_BelIS_Desktop_Entwicklung",
+    "title": "BE_E_BDT-1",
+    "description": "BelIS Desktop - Arrondierung und Inbetriebnahme (1. Folgeauftrag)",
+    "tags": ["BelIS", "angek. Folgeauftrag"],
+    "budget": 17,
+    "github": "https://github.com/cismet/wupp/milestone/172"
+  },
+  {
+    "id": "70_DZ_B_FZ_Beratung_konzeptionelle_Entwicklung_FZ",
+    "title": "DZ_B_FZ",
+    "description": "Beratung und erste konzeptionelle Entwicklung der Fachzwillinge",
+    "tags": ["DZ", "angek. Folgeauftrag"],
+    "budget": 100,
+    "github": "https://github.com/cismet/wupp/milestone/170"
+  },
+  {
+    "id": "70_DZ_B_KON_Konfigurationsmoeglichkeiten_DZ",
+    "title": "DZ_B_KON",
+    "description": "Konsolidierung der Konfigurationsmöglichkeiten des DigiTal Zwillings",
+    "tags": ["DZ", "angek. Folgeauftrag"],
+    "budget": 50,
+    "github": "https://github.com/cismet/wupp/milestone/171"
+  },
+  {
+    "id": "70_DZ_B_OLB-2",
+    "title": "DZ_B_OLB-2",
+    "description": "OpenData-Selbstentnahmeplattform für Luftbildschrägaufnahmen (2. Folgeauftrag)",
+    "tags": ["DZ", "angek. Folgeauftrag"],
+    "budget": 35,
+    "github": "https://github.com/cismet/wupp/milestone/168"
+  },
+  {
+    "id": "70_WU_B_KWB-5_Konsolidierung_WuNDa_Backend",
+    "title": "WU_B_KWB-5",
+    "description": "Konsolidierung WuNDa Backend (5. Folgeauftrag)",
+    "tags": ["WuNDa", "angek. Folgeauftrag"],
+    "budget": 30,
+    "github": "https://github.com/cismet/wupp/milestone/178"
   },
   {
     "id": "60_ALWIS Kontingent",
