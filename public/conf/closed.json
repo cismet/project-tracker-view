@@ -1,5 +1,21 @@
 [
   {
+    "id": "10_DZ_E_GA1-3_Laufende_Konsolidierung",
+    "title": "DZ_E_GA1-3",
+    "description": "Laufende Konsolidierung Generische Applikation für den DigiTal Zwilling (Stufe 1, 3. Folgeauftrag)",
+    "tags": ["DZ"],
+    "budget": 120,
+    "github": "https://github.com/cismet/wupp/milestone/166"
+  },
+  {
+    "id": "10_WU_B_KWB-4_Konsolidierung_WuNDa_Backend",
+    "title": "WU_B_KWB-4",
+    "description": "Konsolidierung WuNDa Backend (4. Folgeauftrag)",
+    "tags": ["WuNDa"],
+    "budget": 15.5,
+    "github": "https://github.com/cismet/wupp/milestone/169"
+  },
+  {
     "id": "10_BE_E_BDT_BelIS_Desktop_Entwicklung",
     "title": "BE_E_BDT",
     "description": "BelIS Desktop (Anwendungsprogrammierung)",
