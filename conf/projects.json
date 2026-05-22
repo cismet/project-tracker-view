@@ -16,10 +16,10 @@
     "github": "https://github.com/cismet/wupp/milestone/174"
   },
   {
-    "id": "70_DZ_B_VTI-3_VectorTiles_und_Maplibre",
+    "id": "10_DZ_B_VTI-3_VectorTiles_und_Maplibre",
     "title": "DZ_B_VTI-3",
     "description": "Beratung zur Integration von Vector Tiles und MapLibre (3. Folgeauftrag)",
-    "tags": ["DZ", "angek. Folgeauftrag"],
+    "tags": ["DZ"],
     "budget": 60,
     "github": "https://github.com/cismet/wupp/milestone/167"
   },
