@@ -96,6 +96,14 @@
     "github": "https://github.com/cismet/wupp/milestone/178"
   },
   {
+    "id": "70_DZ_B_F4R_Featurecollection_fuer_twin4road",
+    "title": "DZ_B_F4R",
+    "description": "Featurecollection für twin4road",
+    "tags": ["DZ", "angek. Folgeauftrag"],
+    "budget": 10,
+    "github": "https://github.com/cismet/wupp/milestone/179"
+  },
+  {
     "id": "60_ALWIS Kontingent",
     "title": "ALWIS Kontingent",
     "description": "Wartungskontingent",
