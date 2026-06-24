@@ -194,6 +194,10 @@ export default function Component() {
       border: "border-indigo-600",
       bg: "bg-indigo-600",
     },
+    "Teilsysteme DZ / TopicMaps (ohne Förderung)": {
+      border: "border-cyan-600",
+      bg: "bg-cyan-600",
+    },
     ES: {
       border: "border-red-600",
       bg: "bg-red-600",
@@ -219,6 +223,11 @@ export default function Component() {
       border: "border-gray-600",
       bg: "bg-gray-600",
     },
+  };
+
+  // Short labels shown on the project cards; the full label stays in the filter bar.
+  const cardTagLabels: { [key: string]: string } = {
+    "Teilsysteme DZ / TopicMaps (ohne Förderung)": "TD",
   };
 
   const tags = Object.keys(colorConfig).filter((tag) => {
@@ -398,7 +407,7 @@ export default function Component() {
                                 : "white dark:bg-gray-950 text-gray-500 dark:text-gray-500"
                             }`}
                           >
-                            {tag}
+                            {cardTagLabels[tag] ?? tag}
                           </Badge>
                         );
                       })}

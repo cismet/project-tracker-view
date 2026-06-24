@@ -56,10 +56,10 @@
     "github": "https://github.com/cismet/wupp/milestone/173"
   },
   {
-    "id": "70_TM_B_QTZ-4-TopicMaps2Zwilling",
-    "title": "TM_B_QTZ-4",
+    "id": "70_TD_B_QTZ-4-TopicMaps2Zwilling",
+    "title": "TD_B_QTZ-4",
     "description": "Beratung zur Qualifizierung der TopicMaps zu Teilzwillings-Applikationen (4. Folgeprojekt)",
-    "tags": ["TopicMaps", "angek. Folgeauftrag"],
+    "tags": ["TopicMaps", "Teilsysteme DZ / TopicMaps (ohne Förderung)", "angek. Folgeauftrag"],
     "budget": 15,
     "github": "https://github.com/cismet/wupp/milestone/177"
   },
