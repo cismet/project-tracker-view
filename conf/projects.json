@@ -48,10 +48,10 @@
     "github": "https://github.com/cismet/wupp/milestone/172"
   },
   {
-    "id": "70_ES_B_FKP_Gleitender_Einstieg",
+    "id": "10_ES_B_FKP_Gleitender_Einstieg",
     "title": "ES_B_FKP",
     "description": "Gleitender Einstieg in den Fachzwilling kommunale Planung",
-    "tags": ["ES", "angek. Folgeauftrag"],
+    "tags": ["ES"],
     "budget": 25,
     "github": "https://github.com/cismet/wupp/milestone/173"
   },
