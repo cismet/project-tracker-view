@@ -16,28 +16,12 @@
     "github": "https://github.com/cismet/wupp/milestone/174"
   },
   {
-    "id": "10_DZ_B_VTI-3_VectorTiles_und_Maplibre",
-    "title": "DZ_B_VTI-3",
-    "description": "Beratung zur Integration von Vector Tiles und MapLibre (3. Folgeauftrag)",
-    "tags": ["DZ"],
-    "budget": 60,
-    "github": "https://github.com/cismet/wupp/milestone/167"
-  },
-  {
     "id": "10_DZ_E_VLB-1_Sensordatenintegration",
     "title": "DZ_E_VLB-1",
     "description": "Sensordatenintegration (1. Folgeauftrag)",
     "tags": ["DZ"],
     "budget": 30,
     "github": "https://github.com/cismet/wupp/milestone/175"
-  },
-  {
-    "id": "10_DZ_E_GA1-4_Laufende_Konsolidierung",
-    "title": "DZ_E_GA1-4",
-    "description": "Laufende Konsolidierung Generische Applikation für den DigiTal Zwilling (Stufe 1, 4. Folgeauftrag)",
-    "tags": ["DZ"],
-    "budget": 40,
-    "github": "https://github.com/cismet/wupp/milestone/176"
   },
   {
     "id": "10_ES_B_FKP_Gleitender_Einstieg",
