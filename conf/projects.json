@@ -40,14 +40,6 @@
     "github": "https://github.com/cismet/wupp/milestone/176"
   },
   {
-    "id": "10_BE_E_BDT-1_BelIS_Desktop_Entwicklung",
-    "title": "BE_E_BDT-1",
-    "description": "BelIS Desktop - Arrondierung und Inbetriebnahme (1. Folgeauftrag)",
-    "tags": ["BelIS"],
-    "budget": 17,
-    "github": "https://github.com/cismet/wupp/milestone/172"
-  },
-  {
     "id": "10_ES_B_FKP_Gleitender_Einstieg",
     "title": "ES_B_FKP",
     "description": "Gleitender Einstieg in den Fachzwilling kommunale Planung",
@@ -118,6 +110,22 @@
     "tags": ["Teilsysteme DZ / TopicMaps (ohne Förderung)", "angek. Folgeauftrag"],
     "budget": 30,
     "github": "https://github.com/cismet/wupp/milestone/182"
+  },
+  {
+    "id": "70_DZ_B_Z4D_Forschungskooperationsdaten",
+    "title": "DZ_B_Z4D",
+    "description": "Beratung zur Qualifizierung der Forschungskooperationsdaten für Publikationszwecke",
+    "tags": ["DZ", "angek. Folgeauftrag"],
+    "budget": 30,
+    "github": "https://github.com/cismet/wupp/milestone/180"
+  },
+  {
+    "id": "70_BE_E_BDT-2_BelIS_Desktop_Entwicklung",
+    "title": "BE_E_BDT-2",
+    "description": "BelIS Desktop - Funktionserweiterung und Stabilisierung (2. Folgeauftrag)",
+    "tags": ["BelIS", "angek. Folgeauftrag"],
+    "budget": 33,
+    "github": "https://github.com/cismet/wupp/milestone/181"
   },
   {
     "id": "60_ALWIS Kontingent",
