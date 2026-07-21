@@ -1,5 +1,13 @@
 [
   {
+    "id": "10_BE_E_BDT-1_BelIS_Desktop_Entwicklung",
+    "title": "BE_E_BDT-1",
+    "description": "BelIS Desktop - Arrondierung und Inbetriebnahme (1. Folgeauftrag)",
+    "tags": ["BelIS"],
+    "budget": 17,
+    "github": "https://github.com/cismet/wupp/milestone/172"
+  },
+  {
     "id": "10_DZ_E_GA1-3_Laufende_Konsolidierung",
     "title": "DZ_E_GA1-3",
     "description": "Laufende Konsolidierung Generische Applikation für den DigiTal Zwilling (Stufe 1, 3. Folgeauftrag)",
