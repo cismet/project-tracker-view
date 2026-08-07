@@ -32,6 +32,14 @@
     "github": "https://github.com/cismet/wupp/milestone/173"
   },
   {
+    "id": "10_DZ_B_F4R_Featurecollection_fuer_twin4road",
+    "title": "DZ_B_F4R",
+    "description": "Featurecollection für twin4road",
+    "tags": ["DZ"],
+    "budget": 10,
+    "github": "https://github.com/cismet/wupp/milestone/179"
+  },
+  {
     "id": "70_TD_B_QTZ-4-TopicMaps2Zwilling",
     "title": "TD_B_QTZ-4",
     "description": "Beratung zur Qualifizierung der TopicMaps zu Teilzwillings-Applikationen (4. Folgeprojekt)",
@@ -40,8 +48,8 @@
     "github": "https://github.com/cismet/wupp/milestone/177"
   },
   {
-    "id": "70_DZ_B_FZ_Beratung_konzeptionelle_Entwicklung_FZ",
-    "title": "DZ_B_FZ",
+    "id": "70_DZ_B_FZW_Beratung_konzeptionelle_Entwicklung_FZ",
+    "title": "DZ_B_FZW",
     "description": "Beratung und erste konzeptionelle Entwicklung der Fachzwillinge",
     "tags": ["DZ", "angek. Folgeauftrag"],
     "budget": 50,
@@ -70,14 +78,6 @@
     "tags": ["WuNDa", "angek. Folgeauftrag"],
     "budget": 30,
     "github": "https://github.com/cismet/wupp/milestone/178"
-  },
-  {
-    "id": "70_DZ_B_F4R_Featurecollection_fuer_twin4road",
-    "title": "DZ_B_F4R",
-    "description": "Featurecollection für twin4road",
-    "tags": ["DZ", "angek. Folgeauftrag"],
-    "budget": 10,
-    "github": "https://github.com/cismet/wupp/milestone/179"
   },
   {
     "id": "70_TD_B_VTI-4_MapLibre",
