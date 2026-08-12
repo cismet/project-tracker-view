@@ -56,12 +56,20 @@
     "github": "https://github.com/cismet/wupp/milestone/182"
   },
   {
-    "id": "70_TD_B_QTZ-4-TopicMaps2Zwilling",
+    "id": "10_TD_B_QTZ-4-TopicMaps2Zwilling",
     "title": "TD_B_QTZ-4",
     "description": "Beratung zur Qualifizierung der TopicMaps zu Teilzwillings-Applikationen (4. Folgeprojekt)",
-    "tags": ["TopicMaps", "Teilsysteme DZ / TopicMaps (ohne Förderung)", "angek. Folgeauftrag"],
+    "tags": ["TopicMaps", "Teilsysteme DZ / TopicMaps (ohne Förderung)"],
     "budget": 15,
     "github": "https://github.com/cismet/wupp/milestone/177"
+  },
+  {
+    "id": "10_DZ_B_LSM_Leerstandsmanagement",
+    "title": "DZ_B_LSM",
+    "description": "Entwicklung des Teilzwillings Leerstandsmanagement",
+    "tags": ["DZ"],
+    "budget": 20,
+    "github": "https://github.com/cismet/wupp/milestone/185"
   },
   {
     "id": "70_DZ_B_FZW_Beratung_konzeptionelle_Entwicklung_FZ",
