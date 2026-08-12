@@ -40,6 +40,22 @@
     "github": "https://github.com/cismet/wupp/milestone/179"
   },
   {
+    "id": "10_TD_B_VTI-4_MapLibre",
+    "title": "TD_B_VTI-4",
+    "description": "Beratung zur Integration von Vector Tiles und MapLibre (4. Folgeauftrag)",
+    "tags": ["Teilsysteme DZ / TopicMaps (ohne Förderung)"],
+    "budget": 30,
+    "github": "https://github.com/cismet/wupp/milestone/183"
+  },
+  {
+    "id": "10_TD_E_GA1-5_Laufende_Konsolidierung",
+    "title": "TD_E_GA1-5",
+    "description": "Laufende Konsolidierung Generische Applikation für den DigiTal Zwilling (Stufe 1, fünfter Folgeauftrag)",
+    "tags": ["Teilsysteme DZ / TopicMaps (ohne Förderung)"],
+    "budget": 30,
+    "github": "https://github.com/cismet/wupp/milestone/182"
+  },
+  {
     "id": "70_TD_B_QTZ-4-TopicMaps2Zwilling",
     "title": "TD_B_QTZ-4",
     "description": "Beratung zur Qualifizierung der TopicMaps zu Teilzwillings-Applikationen (4. Folgeprojekt)",
@@ -78,22 +94,6 @@
     "tags": ["WuNDa", "angek. Folgeauftrag"],
     "budget": 30,
     "github": "https://github.com/cismet/wupp/milestone/178"
-  },
-  {
-    "id": "70_TD_B_VTI-4_MapLibre",
-    "title": "TD_B_VTI-4",
-    "description": "Beratung zur Integration von Vector Tiles und MapLibre (4. Folgeauftrag)",
-    "tags": ["Teilsysteme DZ / TopicMaps (ohne Förderung)", "angek. Folgeauftrag"],
-    "budget": 30,
-    "github": "https://github.com/cismet/wupp/milestone/183"
-  },
-  {
-    "id": "70_TD_E_GA1-5_Laufende_Konsolidierung",
-    "title": "TD_E_GA1-5",
-    "description": "Laufende Konsolidierung Generische Applikation für den DigiTal Zwilling (Stufe 1, fünfter Folgeauftrag)",
-    "tags": ["Teilsysteme DZ / TopicMaps (ohne Förderung)", "angek. Folgeauftrag"],
-    "budget": 30,
-    "github": "https://github.com/cismet/wupp/milestone/182"
   },
   {
     "id": "70_DZ_B_Z4D_Forschungskooperationsdaten",
