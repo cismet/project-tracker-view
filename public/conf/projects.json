@@ -72,6 +72,14 @@
     "github": "https://github.com/cismet/wupp/milestone/185"
   },
   {
+    "id": "10_DZ_B_Z4D_Forschungskooperationsdaten",
+    "title": "DZ_B_Z4D",
+    "description": "Beratung zur Qualifizierung der Forschungskooperationsdaten für Publikationszwecke",
+    "tags": ["DZ"],
+    "budget": 30,
+    "github": "https://github.com/cismet/wupp/milestone/180"
+  },
+  {
     "id": "70_DZ_B_FZW_Beratung_konzeptionelle_Entwicklung_FZ",
     "title": "DZ_B_FZW",
     "description": "Beratung und erste konzeptionelle Entwicklung der Fachzwillinge",
@@ -102,14 +110,6 @@
     "tags": ["WuNDa", "angek. Folgeauftrag"],
     "budget": 30,
     "github": "https://github.com/cismet/wupp/milestone/178"
-  },
-  {
-    "id": "70_DZ_B_Z4D_Forschungskooperationsdaten",
-    "title": "DZ_B_Z4D",
-    "description": "Beratung zur Qualifizierung der Forschungskooperationsdaten für Publikationszwecke",
-    "tags": ["DZ", "angek. Folgeauftrag"],
-    "budget": 30,
-    "github": "https://github.com/cismet/wupp/milestone/180"
   },
   {
     "id": "70_BE_E_BDT-2_BelIS_Desktop_Entwicklung",
