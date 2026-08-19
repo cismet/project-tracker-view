@@ -104,10 +104,10 @@
     "github": "https://github.com/cismet/wupp/milestone/171"
   },
   {
-    "id": "70_DZ_B_OLB-2",
-    "title": "DZ_B_OLB-2",
+    "id": "70_TD_B_OLB-2",
+    "title": "TD_B_OLB-2",
     "description": "OpenData-Selbstentnahmeplattform für Luftbildschrägaufnahmen (2. Folgeauftrag)",
-    "tags": ["DZ", "angek. Folgeauftrag"],
+    "tags": ["Teilsysteme DZ / TopicMaps (ohne Förderung)", "angek. Folgeauftrag"],
     "budget": 35,
     "github": "https://github.com/cismet/wupp/milestone/168"
   },
