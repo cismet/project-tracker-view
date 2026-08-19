@@ -80,6 +80,14 @@
     "github": "https://github.com/cismet/wupp/milestone/180"
   },
   {
+    "id": "10_WU_B_KWB-5_Konsolidierung_WuNDa_Backend",
+    "title": "WU_B_KWB-5",
+    "description": "Konsolidierung WuNDa Backend (5. Folgeauftrag)",
+    "tags": ["WuNDa"],
+    "budget": 30,
+    "github": "https://github.com/cismet/wupp/milestone/178"
+  },
+  {
     "id": "70_DZ_B_FZW_Beratung_konzeptionelle_Entwicklung_FZ",
     "title": "DZ_B_FZW",
     "description": "Beratung und erste konzeptionelle Entwicklung der Fachzwillinge",
@@ -102,14 +110,6 @@
     "tags": ["DZ", "angek. Folgeauftrag"],
     "budget": 35,
     "github": "https://github.com/cismet/wupp/milestone/168"
-  },
-  {
-    "id": "70_WU_B_KWB-5_Konsolidierung_WuNDa_Backend",
-    "title": "WU_B_KWB-5",
-    "description": "Konsolidierung WuNDa Backend (5. Folgeauftrag)",
-    "tags": ["WuNDa", "angek. Folgeauftrag"],
-    "budget": 30,
-    "github": "https://github.com/cismet/wupp/milestone/178"
   },
   {
     "id": "70_BE_E_BDT-2_BelIS_Desktop_Entwicklung",
