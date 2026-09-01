@@ -88,10 +88,10 @@
     "github": "https://github.com/cismet/wupp/milestone/178"
   },
   {
-    "id": "70_DZ_B_FZW_Beratung_konzeptionelle_Entwicklung_FZ",
+    "id": "10_DZ_B_FZW_Beratung_konzeptionelle_Entwicklung_FZ",
     "title": "DZ_B_FZW",
     "description": "Beratung und erste konzeptionelle Entwicklung der Fachzwillinge",
-    "tags": ["DZ", "angek. Folgeauftrag"],
+    "tags": ["DZ"],
     "budget": 100,
     "github": "https://github.com/cismet/wupp/milestone/170"
   },
