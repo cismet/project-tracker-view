@@ -96,6 +96,14 @@
     "github": "https://github.com/cismet/wupp/milestone/170"
   },
   {
+    "id": "10_WU_B_EAK-2_Altlastenkataster",
+    "title": "WU_B_EAK-2",
+    "description": "Einsatzunterstützung Altlastenkataster (2. Folgeauftrag)",
+    "tags": ["WuNDa"],
+    "budget": 14,
+    "github": "https://github.com/cismet/wupp/milestone/186"
+  },
+  {
     "id": "70_DZ_B_KON_Konfigurationsmoeglichkeiten_DZ",
     "title": "DZ_B_KON",
     "description": "Konsolidierung der Konfigurationsmöglichkeiten des DigiTal Zwillings",
