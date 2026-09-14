@@ -104,6 +104,14 @@
     "github": "https://github.com/cismet/wupp/milestone/186"
   },
   {
+    "id": "10_DZ_B_PRM_Projection_Mapping",
+    "title": "DZ_B_PRM",
+    "description": "Beratung und erste Entwicklungen zum Projection Mapping",
+    "tags": ["DZ"],
+    "budget": 50,
+    "github": "https://github.com/cismet/wupp/milestone/184"
+  },
+  {
     "id": "70_DZ_B_KON_Konfigurationsmoeglichkeiten_DZ",
     "title": "DZ_B_KON",
     "description": "Konsolidierung der Konfigurationsmöglichkeiten des DigiTal Zwillings",
@@ -126,14 +134,6 @@
     "tags": ["BelIS", "angek. Folgeauftrag"],
     "budget": 33,
     "github": "https://github.com/cismet/wupp/milestone/181"
-  },
-  {
-    "id": "70_DZ_B_PRM_Projection_Mapping",
-    "title": "DZ_B_PRM",
-    "description": "Beratung und erste Entwicklungen zum Projection Mapping",
-    "tags": ["DZ", "angek. Folgeauftrag"],
-    "budget": 50,
-    "github": "https://github.com/cismet/wupp/milestone/184"
   },
   {
     "id": "60_ALWIS Kontingent",
