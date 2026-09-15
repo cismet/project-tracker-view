@@ -136,6 +136,14 @@
     "github": "https://github.com/cismet/wupp/milestone/181"
   },
   {
+    "id": "70_LA_E_WLD-1_LagIS-Desktop_RW",
+    "title": "LA_E_WLD-1",
+    "description": "Weiterentwicklung LagIS-Desktop 2026 (1. Folgeauftrag)",
+    "tags": ["LagIS", "angek. Folgeauftrag"],
+    "budget": 20,
+    "github": "https://github.com/cismet/wupp/milestone/187"
+  },
+  {
     "id": "60_ALWIS Kontingent",
     "title": "ALWIS Kontingent",
     "description": "Wartungskontingent",
