@@ -112,6 +112,14 @@
     "github": "https://github.com/cismet/wupp/milestone/184"
   },
   {
+    "id": "10_LA_E_WLD-1_LagIS-Desktop_RW",
+    "title": "LA_E_WLD-1",
+    "description": "Weiterentwicklung LagIS-Desktop 2026 (1. Folgeauftrag)",
+    "tags": ["LagIS"],
+    "budget": 20,
+    "github": "https://github.com/cismet/wupp/milestone/187"
+  },
+  {
     "id": "70_DZ_B_KON_Konfigurationsmoeglichkeiten_DZ",
     "title": "DZ_B_KON",
     "description": "Konsolidierung der Konfigurationsmöglichkeiten des DigiTal Zwillings",
@@ -134,14 +142,6 @@
     "tags": ["BelIS", "angek. Folgeauftrag"],
     "budget": 33,
     "github": "https://github.com/cismet/wupp/milestone/181"
-  },
-  {
-    "id": "70_LA_E_WLD-1_LagIS-Desktop_RW",
-    "title": "LA_E_WLD-1",
-    "description": "Weiterentwicklung LagIS-Desktop 2026 (1. Folgeauftrag)",
-    "tags": ["LagIS", "angek. Folgeauftrag"],
-    "budget": 20,
-    "github": "https://github.com/cismet/wupp/milestone/187"
   },
   {
     "id": "60_ALWIS Kontingent",
