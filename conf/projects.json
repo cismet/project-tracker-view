@@ -120,6 +120,14 @@
     "github": "https://github.com/cismet/wupp/milestone/187"
   },
   {
+    "id": "10_BE_B_BDT-2_BelIS_Desktop_Entwicklung",
+    "title": "BE_B_BDT-2",
+    "description": "BelIS Desktop - Funktionserweiterung und Stabilisierung (2. Folgeauftrag)",
+    "tags": ["BelIS"],
+    "budget": 40,
+    "github": "https://github.com/cismet/wupp/milestone/181"
+  },
+  {
     "id": "70_DZ_B_KON_Konfigurationsmoeglichkeiten_DZ",
     "title": "DZ_B_KON",
     "description": "Konsolidierung der Konfigurationsmöglichkeiten des DigiTal Zwillings",
@@ -134,14 +142,6 @@
     "tags": ["Teilsysteme DZ / TopicMaps (ohne Förderung)", "angek. Folgeauftrag"],
     "budget": 35,
     "github": "https://github.com/cismet/wupp/milestone/168"
-  },
-  {
-    "id": "70_BE_E_BDT-2_BelIS_Desktop_Entwicklung",
-    "title": "BE_E_BDT-2",
-    "description": "BelIS Desktop - Funktionserweiterung und Stabilisierung (2. Folgeauftrag)",
-    "tags": ["BelIS", "angek. Folgeauftrag"],
-    "budget": 33,
-    "github": "https://github.com/cismet/wupp/milestone/181"
   },
   {
     "id": "60_ALWIS Kontingent",
