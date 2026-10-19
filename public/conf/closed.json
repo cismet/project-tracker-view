@@ -1,5 +1,21 @@
 [
   {
+    "id": "10_DZ_B_FZW_Beratung_konzeptionelle_Entwicklung_FZ",
+    "title": "DZ_B_FZW",
+    "description": "Beratung und erste konzeptionelle Entwicklung der Fachzwillinge",
+    "tags": ["DZ"],
+    "budget": 100,
+    "github": "https://github.com/cismet/wupp/milestone/170"
+  },
+  {
+    "id": "10_DZ_B_F4R_Featurecollection_fuer_twin4road",
+    "title": "DZ_B_F4R",
+    "description": "Featurecollection für twin4road",
+    "tags": ["DZ"],
+    "budget": 10,
+    "github": "https://github.com/cismet/wupp/milestone/179"
+  },
+  {
     "id": "10_DZ_B_VTI-3_VectorTiles_und_Maplibre",
     "title": "DZ_B_VTI-3",
     "description": "Beratung zur Integration von Vector Tiles und MapLibre (3. Folgeauftrag)",
