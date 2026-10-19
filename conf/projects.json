@@ -32,14 +32,6 @@
     "github": "https://github.com/cismet/wupp/milestone/173"
   },
   {
-    "id": "10_DZ_B_F4R_Featurecollection_fuer_twin4road",
-    "title": "DZ_B_F4R",
-    "description": "Featurecollection für twin4road",
-    "tags": ["DZ"],
-    "budget": 10,
-    "github": "https://github.com/cismet/wupp/milestone/179"
-  },
-  {
     "id": "10_TD_B_VTI-4_MapLibre",
     "title": "TD_B_VTI-4",
     "description": "Beratung zur Integration von Vector Tiles und MapLibre (4. Folgeauftrag)",
@@ -88,14 +80,6 @@
     "github": "https://github.com/cismet/wupp/milestone/178"
   },
   {
-    "id": "10_DZ_B_FZW_Beratung_konzeptionelle_Entwicklung_FZ",
-    "title": "DZ_B_FZW",
-    "description": "Beratung und erste konzeptionelle Entwicklung der Fachzwillinge",
-    "tags": ["DZ"],
-    "budget": 100,
-    "github": "https://github.com/cismet/wupp/milestone/170"
-  },
-  {
     "id": "10_WU_B_EAK-2_Altlastenkataster",
     "title": "WU_B_EAK-2",
     "description": "Einsatzunterstützung Altlastenkataster (2. Folgeauftrag)",
@@ -142,6 +126,14 @@
     "tags": ["Teilsysteme DZ / TopicMaps (ohne Förderung)", "angek. Folgeauftrag"],
     "budget": 35,
     "github": "https://github.com/cismet/wupp/milestone/168"
+  },
+  {
+    "id": "70_DZ_B_FZW-1_Beratung_konzept_Entwicklung_FZ",
+    "title": "DZ_B_FZW-1",
+    "description": "Beratung und konzeptionelle Entwicklung der Fachzwillinge (1. Folgeauftrag)",
+    "tags": ["DZ", "angek. Folgeauftrag"],
+    "budget": 35,
+    "github": "https://github.com/cismet/wupp/milestone/188"
   },
   {
     "id": "60_ALWIS Kontingent",
