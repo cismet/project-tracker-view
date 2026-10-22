@@ -140,7 +140,7 @@
     "title": "LA_E_WLD-2",
     "description": "Weiterentwicklung LagIS-Desktop 2026 (2. Folgeauftrag)",
     "tags": ["LagIS", "angek. Folgeauftrag"],
-    "budget": 30,
+    "budget": 15,
     "github": "https://github.com/cismet/wupp/milestone/189"
   },
   {
