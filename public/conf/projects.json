@@ -72,14 +72,6 @@
     "github": "https://github.com/cismet/wupp/milestone/186"
   },
   {
-    "id": "10_LA_E_WLD-1_LagIS-Desktop_RW",
-    "title": "LA_E_WLD-1",
-    "description": "Weiterentwicklung LagIS-Desktop 2026 (1. Folgeauftrag)",
-    "tags": ["LagIS"],
-    "budget": 20,
-    "github": "https://github.com/cismet/wupp/milestone/187"
-  },
-  {
     "id": "10_BE_B_BDT-2_BelIS_Desktop_Entwicklung",
     "title": "BE_B_BDT-2",
     "description": "BelIS Desktop - Funktionserweiterung und Stabilisierung (2. Folgeauftrag)",

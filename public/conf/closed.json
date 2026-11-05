@@ -1,5 +1,13 @@
 [
   {
+    "id": "10_LA_E_WLD-1_LagIS-Desktop_RW",
+    "title": "LA_E_WLD-1",
+    "description": "Weiterentwicklung LagIS-Desktop 2026 (1. Folgeauftrag)",
+    "tags": ["LagIS"],
+    "budget": 20,
+    "github": "https://github.com/cismet/wupp/milestone/187"
+  },
+  {
     "id": "10_DZ_E_MAB-1_Haertung_des_TZ_Baumbewirtschaftung",
     "title": "DZ_E_MAB-1",
     "description": "Härtung des TZ Baumbewirtschaftung",
