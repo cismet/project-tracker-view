@@ -112,6 +112,22 @@
     "github": "https://github.com/cismet/wupp/milestone/189"
   },
   {
+    "id": "70_DZ_B_PRM-1_Projection_Mapping",
+    "title": "DZ_B_PRM-1",
+    "description": "Beratung und erste Entwicklungen zum Projection Mapping (1. Folgeauftrag)",
+    "tags": ["DZ", "angek. Folgeauftrag"],
+    "budget": 25,
+    "github": "https://github.com/cismet/wupp/milestone/190"
+  },
+  {
+    "id": "70_TD_E_WEK_Weiterentwicklung_Komponenten",
+    "title": "TD_E_WEK",
+    "description": "Weiterentwicklung eingeführter Komponenten",
+    "tags": ["Teilsysteme DZ / TopicMaps (ohne Förderung)", "angek. Folgeauftrag"],
+    "budget": 15,
+    "github": "https://github.com/cismet/wupp/milestone/191"
+  },
+  {
     "id": "60_ALWIS Kontingent",
     "title": "ALWIS Kontingent",
     "description": "Wartungskontingent",
